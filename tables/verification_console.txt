@@ -1,0 +1,22 @@
+{
+  "array_solutions_checked": 544,
+  "audit_failures": [],
+  "input_hash_failures": [],
+  "duality_failures": [],
+  "files_by_folder": {
+    "ablation_small": 63,
+    "battery_exact_check": 29,
+    "benchmark": 143,
+    "bounds_short": 60,
+    "count45": 90,
+    "evidence": 60,
+    "local_fleet": 18,
+    "local_perturb": 22,
+    "payload_exact_check": 50,
+    "reconstructed_legacy_sweeps": 78,
+    "sites_small": 36,
+    "steps_small": 42,
+    "validation": 24
+  },
+  "passed": true
+}

@@ -1,0 +1,3956 @@
+{
+  "comparison": [
+    {
+      "method": "LR_full",
+      "n": 15,
+      "mean_excess_pct": 0.7174362618249162,
+      "max_excess_pct": 4.101914408060958,
+      "optimal_objectives": 7,
+      "solver_optimal": 0,
+      "mean_wall_seconds": 10.046650319999511,
+      "max_wall_seconds": 17.49908989999676
+    },
+    {
+      "method": "no_guidance",
+      "n": 15,
+      "mean_excess_pct": 5.483941576311991,
+      "max_excess_pct": 15.043946907641615,
+      "optimal_objectives": 2,
+      "solver_optimal": 0,
+      "mean_wall_seconds": 0.7237138666658818,
+      "max_wall_seconds": 1.2175208000116982
+    },
+    {
+      "method": "AggPack",
+      "n": 15,
+      "mean_excess_pct": 3.567011500985965e-08,
+      "max_excess_pct": 5.350517140456645e-07,
+      "optimal_objectives": 15,
+      "solver_optimal": 0,
+      "mean_wall_seconds": 3.28933341333662,
+      "max_wall_seconds": 10.271760700008599
+    },
+    {
+      "method": "count_equal",
+      "n": 15,
+      "mean_excess_pct": 0.0,
+      "max_excess_pct": 0.0,
+      "optimal_objectives": 15,
+      "solver_optimal": 15,
+      "mean_wall_seconds": 4.333018933330702,
+      "max_wall_seconds": 13.44976509999833
+    },
+    {
+      "method": "label_equal",
+      "n": 15,
+      "mean_excess_pct": 12.262543187675545,
+      "max_excess_pct": 36.74448012895557,
+      "optimal_objectives": 1,
+      "solver_optimal": 0,
+      "mean_wall_seconds": 10.210280453334175,
+      "max_wall_seconds": 17.636812499986263
+    },
+    {
+      "method": "label_extended",
+      "n": 15,
+      "mean_excess_pct": 0.0024620161850948583,
+      "max_excess_pct": 0.03692991671486734,
+      "optimal_objectives": 14,
+      "solver_optimal": 10,
+      "mean_wall_seconds": 1906.6552831800013,
+      "max_wall_seconds": 3601.909355199983
+    }
+  ],
+  "count_summary": [
+    {
+      "I": 30,
+      "layout": "C",
+      "n": 5,
+      "solver_optimal": 5,
+      "mean_gap_pct": 0.0,
+      "max_gap_pct": 0.0,
+      "mean_wall_seconds": 2.0805696799972795
+    },
+    {
+      "I": 30,
+      "layout": "R",
+      "n": 5,
+      "solver_optimal": 5,
+      "mean_gap_pct": 5.002015683456423e-10,
+      "max_gap_pct": 2.50099359819472e-09,
+      "mean_wall_seconds": 7.965941799996654
+    },
+    {
+      "I": 30,
+      "layout": "RC",
+      "n": 5,
+      "solver_optimal": 5,
+      "mean_gap_pct": 3.0213620987377944e-15,
+      "max_gap_pct": 1.5106810493688972e-14,
+      "mean_wall_seconds": 2.9525453199981713
+    },
+    {
+      "I": 30,
+      "layout": "ALL",
+      "n": 15,
+      "solver_optimal": 15,
+      "mean_gap_pct": 1.667348632359137e-10,
+      "max_gap_pct": 2.50099359819472e-09,
+      "mean_wall_seconds": 4.333018933330702
+    },
+    {
+      "I": 60,
+      "layout": "C",
+      "n": 5,
+      "solver_optimal": 5,
+      "mean_gap_pct": 4.703276174341662e-15,
+      "max_gap_pct": 2.351638087170831e-14,
+      "mean_wall_seconds": 2.9583192000049165
+    },
+    {
+      "I": 60,
+      "layout": "R",
+      "n": 5,
+      "solver_optimal": 3,
+      "mean_gap_pct": 2.375815726152248,
+      "max_gap_pct": 7.334040385282201,
+      "mean_wall_seconds": 15.706480179994832
+    },
+    {
+      "I": 60,
+      "layout": "RC",
+      "n": 5,
+      "solver_optimal": 4,
+      "mean_gap_pct": 0.006551266786638858,
+      "max_gap_pct": 0.03275633393319429,
+      "mean_wall_seconds": 10.536419859994202
+    },
+    {
+      "I": 60,
+      "layout": "ALL",
+      "n": 15,
+      "solver_optimal": 12,
+      "mean_gap_pct": 0.7941223309796305,
+      "max_gap_pct": 7.334040385282201,
+      "mean_wall_seconds": 9.73373974666465
+    },
+    {
+      "I": 100,
+      "layout": "C",
+      "n": 5,
+      "solver_optimal": 0,
+      "mean_gap_pct": 3.3559499788249822,
+      "max_gap_pct": 4.401633793645286,
+      "mean_wall_seconds": 30.034283839998533
+    },
+    {
+      "I": 100,
+      "layout": "R",
+      "n": 5,
+      "solver_optimal": 0,
+      "mean_gap_pct": 2.777302114272943,
+      "max_gap_pct": 3.3995844618296616,
+      "mean_wall_seconds": 30.037536860012914
+    },
+    {
+      "I": 100,
+      "layout": "RC",
+      "n": 5,
+      "solver_optimal": 0,
+      "mean_gap_pct": 4.068366981126794,
+      "max_gap_pct": 7.291553318722261,
+      "mean_wall_seconds": 30.037308380007744
+    },
+    {
+      "I": 100,
+      "layout": "ALL",
+      "n": 15,
+      "solver_optimal": 0,
+      "mean_gap_pct": 3.4005396914082398,
+      "max_gap_pct": 7.291553318722261,
+      "mean_wall_seconds": 30.036376360006397
+    }
+  ],
+  "ablation": [
+    {
+      "method": "LR_full",
+      "n": 9,
+      "mean_excess_pct": 2.15025056603234,
+      "max_excess_pct": 6.96713065861736,
+      "mean_certificate_pct": 2.0470638007869044,
+      "mean_paired_change_pct": 0.0,
+      "worse_than_full": 0,
+      "better_than_full": 0,
+      "mean_wall_seconds": 1.9604732666662636
+    },
+    {
+      "method": "no_guidance",
+      "n": 9,
+      "mean_excess_pct": 4.8587283536328085,
+      "max_excess_pct": 11.927426260226515,
+      "mean_certificate_pct": 4.4623116865622325,
+      "mean_paired_change_pct": 2.650462879367799,
+      "worse_than_full": 6,
+      "better_than_full": 1,
+      "mean_wall_seconds": 0.7166630333295971
+    },
+    {
+      "method": "no_local",
+      "n": 9,
+      "mean_excess_pct": 6.935967182633339,
+      "max_excess_pct": 16.838044588148747,
+      "mean_certificate_pct": 6.324213073823696,
+      "mean_paired_change_pct": 4.664720132002505,
+      "worse_than_full": 9,
+      "better_than_full": 0,
+      "mean_wall_seconds": 1.2799271444447287
+    },
+    {
+      "method": "final_only",
+      "n": 9,
+      "mean_excess_pct": 1.8440470369450759,
+      "max_excess_pct": 5.999280871100865,
+      "mean_certificate_pct": 1.7789070826058335,
+      "mean_paired_change_pct": -0.2501285924674764,
+      "worse_than_full": 2,
+      "better_than_full": 3,
+      "mean_wall_seconds": 1.5631208999968496
+    },
+    {
+      "method": "no_aggregate",
+      "n": 9,
+      "mean_excess_pct": 2.15025056603234,
+      "max_excess_pct": 6.96713065861736,
+      "mean_certificate_pct": 61.140263224723576,
+      "mean_paired_change_pct": 0.0,
+      "worse_than_full": 0,
+      "better_than_full": 0,
+      "mean_wall_seconds": 1.9604732666662636
+    }
+  ],
+  "steps": [
+    {
+      "setting": "LR_full",
+      "n": 3,
+      "mean_excess_pct": 0.39739786516702996,
+      "mean_LR_LP_pct": 67.40916375743627,
+      "mean_wall_seconds": 2.014989933328858
+    },
+    {
+      "setting": "scale_0.25",
+      "n": 3,
+      "mean_excess_pct": 0.39739786516702996,
+      "mean_LR_LP_pct": 51.33232778084987,
+      "mean_wall_seconds": 1.933253766677808
+    },
+    {
+      "setting": "scale_0.5",
+      "n": 3,
+      "mean_excess_pct": 0.8752098763375349,
+      "mean_LR_LP_pct": 61.5786285797206,
+      "mean_wall_seconds": 1.7907717000052799
+    },
+    {
+      "setting": "scale_1.0",
+      "n": 3,
+      "mean_excess_pct": 0.39739786516702996,
+      "mean_LR_LP_pct": 67.40916375743627,
+      "mean_wall_seconds": 2.03788610000629
+    },
+    {
+      "setting": "scale_2.0",
+      "n": 3,
+      "mean_excess_pct": 0.1513457534608816,
+      "mean_LR_LP_pct": 71.21715733455528,
+      "mean_wall_seconds": 2.1988200999912806
+    },
+    {
+      "setting": "check_10",
+      "n": 3,
+      "mean_excess_pct": 0.8116938172849272,
+      "mean_LR_LP_pct": 66.44125184502383,
+      "mean_wall_seconds": 1.8560809999956593
+    },
+    {
+      "setting": "check_25",
+      "n": 3,
+      "mean_excess_pct": 0.39739786516702996,
+      "mean_LR_LP_pct": 67.40916375743627,
+      "mean_wall_seconds": 2.0165651999996044
+    },
+    {
+      "setting": "check_50",
+      "n": 3,
+      "mean_excess_pct": 0.624844536861587,
+      "mean_LR_LP_pct": 67.11789956687518,
+      "mean_wall_seconds": 2.2091787666625655
+    },
+    {
+      "setting": "factors_1.1_0.7",
+      "n": 3,
+      "mean_excess_pct": 0.4741272046619116,
+      "mean_LR_LP_pct": 66.74975952990728,
+      "mean_wall_seconds": 2.2625657999985074
+    },
+    {
+      "setting": "factors_1.3_0.5",
+      "n": 3,
+      "mean_excess_pct": 0.39739786516702996,
+      "mean_LR_LP_pct": 67.40916375743627,
+      "mean_wall_seconds": 2.051685666665435
+    },
+    {
+      "setting": "factors_1.5_0.3",
+      "n": 3,
+      "mean_excess_pct": 0.39739786516702996,
+      "mean_LR_LP_pct": 67.88038370428414,
+      "mean_wall_seconds": 2.2683437333422867
+    },
+    {
+      "setting": "LP_start",
+      "n": 3,
+      "mean_excess_pct": 0.39739786516702996,
+      "mean_LR_LP_pct": 99.99999999999999,
+      "mean_wall_seconds": 2.002005833327227
+    }
+  ],
+  "sites": [
+    {
+      "layout": "C",
+      "design": "grid",
+      "n": 3,
+      "sites": 90,
+      "mean_objective": 1285.4597370653876,
+      "sd_objective": 189.42701075360154,
+      "mean_change_from_grid_pct": 0.0,
+      "mean_fields": 2.3333333333333335
+    },
+    {
+      "layout": "C",
+      "design": "random",
+      "n": 3,
+      "sites": 90,
+      "mean_objective": 1305.0489811884138,
+      "sd_objective": 171.55348954268118,
+      "mean_change_from_grid_pct": 1.7148134150851,
+      "mean_fields": 2.3333333333333335
+    },
+    {
+      "layout": "C",
+      "design": "sparse",
+      "n": 3,
+      "sites": 30,
+      "mean_objective": 1332.9801311811605,
+      "sd_objective": 204.25383873466274,
+      "mean_change_from_grid_pct": 3.640027159969717,
+      "mean_fields": 2.3333333333333335
+    },
+    {
+      "layout": "C",
+      "design": "kmeans",
+      "n": 3,
+      "sites": 10,
+      "mean_objective": 1280.4090163607668,
+      "sd_objective": 205.239273513244,
+      "mean_change_from_grid_pct": -0.5231062231616105,
+      "mean_fields": 2.3333333333333335
+    },
+    {
+      "layout": "R",
+      "design": "grid",
+      "n": 3,
+      "sites": 90,
+      "mean_objective": 1578.1133594309906,
+      "sd_objective": 106.36499646411225,
+      "mean_change_from_grid_pct": 0.0,
+      "mean_fields": 2.6666666666666665
+    },
+    {
+      "layout": "R",
+      "design": "random",
+      "n": 3,
+      "sites": 90,
+      "mean_objective": 1585.4383997393804,
+      "sd_objective": 116.4088574707697,
+      "mean_change_from_grid_pct": 0.43667758167715104,
+      "mean_fields": 2.6666666666666665
+    },
+    {
+      "layout": "R",
+      "design": "sparse",
+      "n": 3,
+      "sites": 30,
+      "mean_objective": 1612.69949252955,
+      "sd_objective": 106.23572865640892,
+      "mean_change_from_grid_pct": 2.1995439445568885,
+      "mean_fields": 2.6666666666666665
+    },
+    {
+      "layout": "R",
+      "design": "kmeans",
+      "n": 3,
+      "sites": 10,
+      "mean_objective": 1619.3622604890343,
+      "sd_objective": 105.71847825070003,
+      "mean_change_from_grid_pct": 2.6273016882989366,
+      "mean_fields": 2.6666666666666665
+    },
+    {
+      "layout": "RC",
+      "design": "grid",
+      "n": 3,
+      "sites": 90,
+      "mean_objective": 1530.0858229437065,
+      "sd_objective": 74.2136092718479,
+      "mean_change_from_grid_pct": 0.0,
+      "mean_fields": 2.3333333333333335
+    },
+    {
+      "layout": "RC",
+      "design": "random",
+      "n": 3,
+      "sites": 90,
+      "mean_objective": 1539.8247585887411,
+      "sd_objective": 63.51614677867769,
+      "mean_change_from_grid_pct": 0.661695338932918,
+      "mean_fields": 2.3333333333333335
+    },
+    {
+      "layout": "RC",
+      "design": "sparse",
+      "n": 3,
+      "sites": 30,
+      "mean_objective": 1565.1494202377633,
+      "sd_objective": 98.35485004723363,
+      "mean_change_from_grid_pct": 2.246667498968713,
+      "mean_fields": 2.3333333333333335
+    },
+    {
+      "layout": "RC",
+      "design": "kmeans",
+      "n": 3,
+      "sites": 10,
+      "mean_objective": 1569.7839432040953,
+      "sd_objective": 69.29749591745158,
+      "mean_change_from_grid_pct": 2.6294326848739225,
+      "mean_fields": 2.3333333333333335
+    }
+  ],
+  "splitting": [
+    {
+      "instance": "I30_C_seed202601_grid",
+      "field_split_share": 0.03333333333333333,
+      "drone_split_share": 0.26666666666666666,
+      "max_drone_pairs_per_customer": 4
+    },
+    {
+      "instance": "I30_C_seed202602_grid",
+      "field_split_share": 0.03333333333333333,
+      "drone_split_share": 0.3,
+      "max_drone_pairs_per_customer": 2
+    },
+    {
+      "instance": "I30_C_seed202603_grid",
+      "field_split_share": 0.0,
+      "drone_split_share": 0.26666666666666666,
+      "max_drone_pairs_per_customer": 3
+    },
+    {
+      "instance": "I30_C_seed202604_grid",
+      "field_split_share": 0.03333333333333333,
+      "drone_split_share": 0.16666666666666666,
+      "max_drone_pairs_per_customer": 5
+    },
+    {
+      "instance": "I30_C_seed202605_grid",
+      "field_split_share": 0.03333333333333333,
+      "drone_split_share": 0.2,
+      "max_drone_pairs_per_customer": 3
+    },
+    {
+      "instance": "I30_RC_seed202601_grid",
+      "field_split_share": 0.03333333333333333,
+      "drone_split_share": 0.4,
+      "max_drone_pairs_per_customer": 3
+    },
+    {
+      "instance": "I30_RC_seed202602_grid",
+      "field_split_share": 0.0,
+      "drone_split_share": 0.3,
+      "max_drone_pairs_per_customer": 2
+    },
+    {
+      "instance": "I30_RC_seed202603_grid",
+      "field_split_share": 0.03333333333333333,
+      "drone_split_share": 0.4,
+      "max_drone_pairs_per_customer": 4
+    },
+    {
+      "instance": "I30_RC_seed202604_grid",
+      "field_split_share": 0.03333333333333333,
+      "drone_split_share": 0.26666666666666666,
+      "max_drone_pairs_per_customer": 3
+    },
+    {
+      "instance": "I30_RC_seed202605_grid",
+      "field_split_share": 0.0,
+      "drone_split_share": 0.3,
+      "max_drone_pairs_per_customer": 2
+    },
+    {
+      "instance": "I30_R_seed202601_grid",
+      "field_split_share": 0.0,
+      "drone_split_share": 0.3333333333333333,
+      "max_drone_pairs_per_customer": 2
+    },
+    {
+      "instance": "I30_R_seed202602_grid",
+      "field_split_share": 0.03333333333333333,
+      "drone_split_share": 0.3,
+      "max_drone_pairs_per_customer": 2
+    },
+    {
+      "instance": "I30_R_seed202603_grid",
+      "field_split_share": 0.03333333333333333,
+      "drone_split_share": 0.3333333333333333,
+      "max_drone_pairs_per_customer": 3
+    },
+    {
+      "instance": "I30_R_seed202604_grid",
+      "field_split_share": 0.0,
+      "drone_split_share": 0.3333333333333333,
+      "max_drone_pairs_per_customer": 3
+    },
+    {
+      "instance": "I30_R_seed202605_grid",
+      "field_split_share": 0.0,
+      "drone_split_share": 0.23333333333333334,
+      "max_drone_pairs_per_customer": 2
+    }
+  ],
+  "battery_reference": [
+    {
+      "I": 30,
+      "layout": "C",
+      "seed": 1301,
+      "budget": 5.0,
+      "lower_bound": 1426.3469361476075,
+      "upper_bound": 1426.3469361476075,
+      "gap_pct": 0.0,
+      "source_budget": 5.0,
+      "source_file": "results/battery_exact_check/I30_C_seed1301_grid_battery5.0.json",
+      "source_method": "exact_count_check",
+      "fields": 3,
+      "drones": 45,
+      "direct_LR_upper_bound": 1426.3469361476075,
+      "reusable_LR_upper_bound": 1426.3469361476075
+    },
+    {
+      "I": 30,
+      "layout": "C",
+      "seed": 1301,
+      "budget": 7.0,
+      "lower_bound": 1426.3469361476075,
+      "upper_bound": 1426.3469361476061,
+      "gap_pct": 0.0,
+      "source_budget": 7.0,
+      "source_file": "results/battery_exact_check/I30_C_seed1301_grid_battery7.0.json",
+      "source_method": "exact_count_check",
+      "fields": 3,
+      "drones": 32,
+      "direct_LR_upper_bound": 1426.3469361476075,
+      "reusable_LR_upper_bound": 1426.3469361476075
+    },
+    {
+      "I": 30,
+      "layout": "C",
+      "seed": 1301,
+      "budget": 10.0,
+      "lower_bound": 1426.3469361476075,
+      "upper_bound": 1426.3469361476061,
+      "gap_pct": 0.0,
+      "source_budget": 7.0,
+      "source_file": "results/battery_exact_check/I30_C_seed1301_grid_battery7.0.json",
+      "source_method": "exact_count_check",
+      "fields": 3,
+      "drones": 32,
+      "direct_LR_upper_bound": 1426.3469361476075,
+      "reusable_LR_upper_bound": 1426.3469361476075
+    },
+    {
+      "I": 30,
+      "layout": "C",
+      "seed": 1301,
+      "budget": 15.0,
+      "lower_bound": 1426.3469361476075,
+      "upper_bound": 1426.3469361476061,
+      "gap_pct": 0.0,
+      "source_budget": 7.0,
+      "source_file": "results/battery_exact_check/I30_C_seed1301_grid_battery7.0.json",
+      "source_method": "exact_count_check",
+      "fields": 3,
+      "drones": 32,
+      "direct_LR_upper_bound": 1426.3469361476075,
+      "reusable_LR_upper_bound": 1426.3469361476075
+    },
+    {
+      "I": 30,
+      "layout": "C",
+      "seed": 1301,
+      "budget": 20.0,
+      "lower_bound": 1426.3469361476075,
+      "upper_bound": 1426.3469361476061,
+      "gap_pct": 0.0,
+      "source_budget": 7.0,
+      "source_file": "results/battery_exact_check/I30_C_seed1301_grid_battery7.0.json",
+      "source_method": "exact_count_check",
+      "fields": 3,
+      "drones": 32,
+      "direct_LR_upper_bound": 1426.3469361476075,
+      "reusable_LR_upper_bound": 1426.3469361476075
+    },
+    {
+      "I": 30,
+      "layout": "C",
+      "seed": 1301,
+      "budget": 30.0,
+      "lower_bound": 1426.3469361476075,
+      "upper_bound": 1426.3469361476061,
+      "gap_pct": 0.0,
+      "source_budget": 7.0,
+      "source_file": "results/battery_exact_check/I30_C_seed1301_grid_battery7.0.json",
+      "source_method": "exact_count_check",
+      "fields": 3,
+      "drones": 32,
+      "direct_LR_upper_bound": 1426.3469361476075,
+      "reusable_LR_upper_bound": 1426.3469361476075
+    },
+    {
+      "I": 30,
+      "layout": "C",
+      "seed": 1301,
+      "budget": 50.0,
+      "lower_bound": 1426.3469361476075,
+      "upper_bound": 1426.3469361476061,
+      "gap_pct": 0.0,
+      "source_budget": 7.0,
+      "source_file": "results/battery_exact_check/I30_C_seed1301_grid_battery7.0.json",
+      "source_method": "exact_count_check",
+      "fields": 3,
+      "drones": 32,
+      "direct_LR_upper_bound": 1426.3469361476075,
+      "reusable_LR_upper_bound": 1426.3469361476075
+    },
+    {
+      "I": 30,
+      "layout": "R",
+      "seed": 1302,
+      "budget": 5.0,
+      "lower_bound": 1663.5450357098612,
+      "upper_bound": 1663.5450357098612,
+      "gap_pct": 0.0,
+      "source_budget": 5.0,
+      "source_file": "results/battery_exact_check/I30_R_seed1302_grid_battery5.0.json",
+      "source_method": "exact_count_check",
+      "fields": 3,
+      "drones": 71,
+      "direct_LR_upper_bound": 1672.744553944317,
+      "reusable_LR_upper_bound": 1672.744553944317
+    },
+    {
+      "I": 30,
+      "layout": "R",
+      "seed": 1302,
+      "budget": 7.0,
+      "lower_bound": 1508.0389503799718,
+      "upper_bound": 1508.0389503799695,
+      "gap_pct": 0.0,
+      "source_budget": 7.0,
+      "source_file": "results/battery_exact_check/I30_R_seed1302_grid_battery7.0.json",
+      "source_method": "exact_count_check",
+      "fields": 2,
+      "drones": 67,
+      "direct_LR_upper_bound": 1508.0389503799702,
+      "reusable_LR_upper_bound": 1508.0389503799702
+    },
+    {
+      "I": 30,
+      "layout": "R",
+      "seed": 1302,
+      "budget": 10.0,
+      "lower_bound": 1508.0389503799718,
+      "upper_bound": 1508.0389503799695,
+      "gap_pct": 0.0,
+      "source_budget": 10.0,
+      "source_file": "results/battery_exact_check/I30_R_seed1302_grid_battery10.0.json",
+      "source_method": "exact_count_check",
+      "fields": 2,
+      "drones": 48,
+      "direct_LR_upper_bound": 1508.0389503799702,
+      "reusable_LR_upper_bound": 1508.0389503799702
+    },
+    {
+      "I": 30,
+      "layout": "R",
+      "seed": 1302,
+      "budget": 15.0,
+      "lower_bound": 1508.0389503799718,
+      "upper_bound": 1508.0389503799695,
+      "gap_pct": 0.0,
+      "source_budget": 10.0,
+      "source_file": "results/battery_exact_check/I30_R_seed1302_grid_battery10.0.json",
+      "source_method": "exact_count_check",
+      "fields": 2,
+      "drones": 48,
+      "direct_LR_upper_bound": 1508.0389503799702,
+      "reusable_LR_upper_bound": 1508.0389503799702
+    },
+    {
+      "I": 30,
+      "layout": "R",
+      "seed": 1302,
+      "budget": 20.0,
+      "lower_bound": 1508.0389503799718,
+      "upper_bound": 1508.0389503799695,
+      "gap_pct": 0.0,
+      "source_budget": 10.0,
+      "source_file": "results/battery_exact_check/I30_R_seed1302_grid_battery10.0.json",
+      "source_method": "exact_count_check",
+      "fields": 2,
+      "drones": 48,
+      "direct_LR_upper_bound": 1508.0389503799702,
+      "reusable_LR_upper_bound": 1508.0389503799702
+    },
+    {
+      "I": 30,
+      "layout": "R",
+      "seed": 1302,
+      "budget": 30.0,
+      "lower_bound": 1508.0389503799718,
+      "upper_bound": 1508.0389503799695,
+      "gap_pct": 0.0,
+      "source_budget": 10.0,
+      "source_file": "results/battery_exact_check/I30_R_seed1302_grid_battery10.0.json",
+      "source_method": "exact_count_check",
+      "fields": 2,
+      "drones": 48,
+      "direct_LR_upper_bound": 1508.0389503799702,
+      "reusable_LR_upper_bound": 1508.0389503799702
+    },
+    {
+      "I": 30,
+      "layout": "R",
+      "seed": 1302,
+      "budget": 50.0,
+      "lower_bound": 1508.0389503799702,
+      "upper_bound": 1508.0389503799695,
+      "gap_pct": 0.0,
+      "source_budget": 10.0,
+      "source_file": "results/battery_exact_check/I30_R_seed1302_grid_battery10.0.json",
+      "source_method": "exact_count_check",
+      "fields": 2,
+      "drones": 48,
+      "direct_LR_upper_bound": 1508.0389503799702,
+      "reusable_LR_upper_bound": 1508.0389503799702
+    },
+    {
+      "I": 60,
+      "layout": "C",
+      "seed": 1601,
+      "budget": 5.0,
+      "lower_bound": 2015.149413499317,
+      "upper_bound": 2015.149413499317,
+      "gap_pct": 0.0,
+      "source_budget": 5.0,
+      "source_file": "results/reconstructed_legacy_sweeps/I60_C_seed1601_grid_battery5.0.json",
+      "source_method": "legacy_open_reconstruction",
+      "fields": 4,
+      "drones": 74,
+      "direct_LR_upper_bound": 2015.149413499317,
+      "reusable_LR_upper_bound": 2015.149413499317
+    },
+    {
+      "I": 60,
+      "layout": "C",
+      "seed": 1601,
+      "budget": 7.0,
+      "lower_bound": 2015.149413499317,
+      "upper_bound": 2015.149413499317,
+      "gap_pct": 0.0,
+      "source_budget": 5.0,
+      "source_file": "results/reconstructed_legacy_sweeps/I60_C_seed1601_grid_battery5.0.json",
+      "source_method": "legacy_open_reconstruction",
+      "fields": 4,
+      "drones": 74,
+      "direct_LR_upper_bound": 2015.1494134993172,
+      "reusable_LR_upper_bound": 2015.149413499317
+    },
+    {
+      "I": 60,
+      "layout": "C",
+      "seed": 1601,
+      "budget": 10.0,
+      "lower_bound": 2015.149413499317,
+      "upper_bound": 2015.149413499317,
+      "gap_pct": 0.0,
+      "source_budget": 10.0,
+      "source_file": "results/reconstructed_legacy_sweeps/I60_C_seed1601_grid_battery10.0.json",
+      "source_method": "legacy_open_reconstruction",
+      "fields": 4,
+      "drones": 38,
+      "direct_LR_upper_bound": 2015.1494134993172,
+      "reusable_LR_upper_bound": 2015.149413499317
+    },
+    {
+      "I": 60,
+      "layout": "C",
+      "seed": 1601,
+      "budget": 15.0,
+      "lower_bound": 2015.149413499317,
+      "upper_bound": 2015.149413499317,
+      "gap_pct": 0.0,
+      "source_budget": 10.0,
+      "source_file": "results/reconstructed_legacy_sweeps/I60_C_seed1601_grid_battery10.0.json",
+      "source_method": "legacy_open_reconstruction",
+      "fields": 4,
+      "drones": 38,
+      "direct_LR_upper_bound": 2015.1494134993172,
+      "reusable_LR_upper_bound": 2015.149413499317
+    },
+    {
+      "I": 60,
+      "layout": "C",
+      "seed": 1601,
+      "budget": 20.0,
+      "lower_bound": 2015.149413499317,
+      "upper_bound": 2015.1494134993163,
+      "gap_pct": 0.0,
+      "source_budget": 20.0,
+      "source_file": "results/battery_exact_check/I60_C_seed1601_grid_battery20.0.json",
+      "source_method": "exact_count_check",
+      "fields": 4,
+      "drones": 24,
+      "direct_LR_upper_bound": 2015.1494134993172,
+      "reusable_LR_upper_bound": 2015.149413499317
+    },
+    {
+      "I": 60,
+      "layout": "C",
+      "seed": 1601,
+      "budget": 30.0,
+      "lower_bound": 2015.149413499317,
+      "upper_bound": 2015.1494134993163,
+      "gap_pct": 0.0,
+      "source_budget": 20.0,
+      "source_file": "results/battery_exact_check/I60_C_seed1601_grid_battery20.0.json",
+      "source_method": "exact_count_check",
+      "fields": 4,
+      "drones": 24,
+      "direct_LR_upper_bound": 2015.1494134993172,
+      "reusable_LR_upper_bound": 2015.149413499317
+    },
+    {
+      "I": 60,
+      "layout": "C",
+      "seed": 1601,
+      "budget": 50.0,
+      "lower_bound": 2015.149413499317,
+      "upper_bound": 2015.1494134993163,
+      "gap_pct": 0.0,
+      "source_budget": 20.0,
+      "source_file": "results/battery_exact_check/I60_C_seed1601_grid_battery20.0.json",
+      "source_method": "exact_count_check",
+      "fields": 4,
+      "drones": 24,
+      "direct_LR_upper_bound": 2015.1494134993172,
+      "reusable_LR_upper_bound": 2015.149413499317
+    },
+    {
+      "I": 60,
+      "layout": "R",
+      "seed": 1602,
+      "budget": 5.0,
+      "lower_bound": 2478.922849250522,
+      "upper_bound": 2537.4880678226536,
+      "gap_pct": 2.3079997622366997,
+      "source_budget": 5.0,
+      "source_file": "results/battery_exact_check/I60_R_seed1602_grid_battery5.0.json",
+      "source_method": "exact_count_check",
+      "fields": 4,
+      "drones": 132,
+      "direct_LR_upper_bound": 2673.860143371732,
+      "reusable_LR_upper_bound": 2673.860143371732
+    },
+    {
+      "I": 60,
+      "layout": "R",
+      "seed": 1602,
+      "budget": 7.0,
+      "lower_bound": 2478.922849250522,
+      "upper_bound": 2478.9228492505204,
+      "gap_pct": 0.0,
+      "source_budget": 7.0,
+      "source_file": "results/battery_exact_check/I60_R_seed1602_grid_battery7.0.json",
+      "source_method": "exact_count_check",
+      "fields": 4,
+      "drones": 90,
+      "direct_LR_upper_bound": 2634.2939031590995,
+      "reusable_LR_upper_bound": 2634.2939031590995
+    },
+    {
+      "I": 60,
+      "layout": "R",
+      "seed": 1602,
+      "budget": 10.0,
+      "lower_bound": 2478.922849250522,
+      "upper_bound": 2478.9228492505204,
+      "gap_pct": 0.0,
+      "source_budget": 10.0,
+      "source_file": "results/battery_exact_check/I60_R_seed1602_grid_battery10.0.json",
+      "source_method": "exact_count_check",
+      "fields": 4,
+      "drones": 64,
+      "direct_LR_upper_bound": 2710.8781521148558,
+      "reusable_LR_upper_bound": 2634.2939031590995
+    },
+    {
+      "I": 60,
+      "layout": "R",
+      "seed": 1602,
+      "budget": 15.0,
+      "lower_bound": 2478.922849250522,
+      "upper_bound": 2478.9228492505204,
+      "gap_pct": 0.0,
+      "source_budget": 10.0,
+      "source_file": "results/battery_exact_check/I60_R_seed1602_grid_battery10.0.json",
+      "source_method": "exact_count_check",
+      "fields": 4,
+      "drones": 64,
+      "direct_LR_upper_bound": 2705.617704725444,
+      "reusable_LR_upper_bound": 2634.2939031590995
+    },
+    {
+      "I": 60,
+      "layout": "R",
+      "seed": 1602,
+      "budget": 20.0,
+      "lower_bound": 2478.9228492505213,
+      "upper_bound": 2478.9228492505204,
+      "gap_pct": 0.0,
+      "source_budget": 10.0,
+      "source_file": "results/battery_exact_check/I60_R_seed1602_grid_battery10.0.json",
+      "source_method": "exact_count_check",
+      "fields": 4,
+      "drones": 64,
+      "direct_LR_upper_bound": 2655.1956983036807,
+      "reusable_LR_upper_bound": 2634.2939031590995
+    },
+    {
+      "I": 60,
+      "layout": "R",
+      "seed": 1602,
+      "budget": 30.0,
+      "lower_bound": 2478.922849250518,
+      "upper_bound": 2478.9228492505085,
+      "gap_pct": 0.0,
+      "source_budget": 50.0,
+      "source_file": "results/battery_exact_check/I60_R_seed1602_grid_battery50.0.json",
+      "source_method": "exact_count_check",
+      "fields": 4,
+      "drones": 27,
+      "direct_LR_upper_bound": 2720.950227009861,
+      "reusable_LR_upper_bound": 2634.2939031590995
+    },
+    {
+      "I": 60,
+      "layout": "R",
+      "seed": 1602,
+      "budget": 50.0,
+      "lower_bound": 2478.9228492505085,
+      "upper_bound": 2478.9228492505085,
+      "gap_pct": 0.0,
+      "source_budget": 50.0,
+      "source_file": "results/battery_exact_check/I60_R_seed1602_grid_battery50.0.json",
+      "source_method": "exact_count_check",
+      "fields": 4,
+      "drones": 27,
+      "direct_LR_upper_bound": 2642.680818014549,
+      "reusable_LR_upper_bound": 2634.2939031590995
+    }
+  ],
+  "fleet": [
+    {
+      "instance_id": "I30_C_seed202601_grid_B5.0_h0_P2_K17",
+      "status": "infeasible",
+      "upper_bound": null,
+      "lower_bound": null,
+      "gap_pct": null,
+      "audit": null
+    },
+    {
+      "instance_id": "I30_C_seed202601_grid_B5.0_h0_P4_K17",
+      "status": "infeasible",
+      "upper_bound": null,
+      "lower_bound": null,
+      "gap_pct": null,
+      "audit": null
+    },
+    {
+      "instance_id": "I30_C_seed202601_grid_B5.0_h20_P2_K17",
+      "status": "infeasible",
+      "upper_bound": null,
+      "lower_bound": null,
+      "gap_pct": null,
+      "audit": null
+    },
+    {
+      "instance_id": "I30_C_seed202601_grid_B5.0_h20_P4_K17",
+      "status": "infeasible",
+      "upper_bound": null,
+      "lower_bound": null,
+      "gap_pct": null,
+      "audit": null
+    },
+    {
+      "instance_id": "I30_C_seed202601_grid_B50.0_h0_P2_K17",
+      "status": "optimal",
+      "upper_bound": 1067.324365129511,
+      "lower_bound": 1067.324365129511,
+      "gap_pct": 0.0,
+      "audit": {
+        "feasible": true,
+        "max_violation": {
+          "demand_balance": 0.0,
+          "nonnegative_flow": 0.0,
+          "field_capacity": 7.105427357601002e-15,
+          "field_limit": 0.0,
+          "payload": 0.0,
+          "energy": 0.0,
+          "fleet": 0.0,
+          "link": 0.0,
+          "count_nonnegative": 0.0,
+          "y_lower": 0.0,
+          "y_upper": 0.0,
+          "y_integrality": 0.0,
+          "n_integrality": 0.0,
+          "reconstructed_payload": 0.0,
+          "reconstructed_energy": 0.0,
+          "zero_count_flow": 0.0
+        },
+        "objective": 1067.324365129511,
+        "opened_fields": [
+          66,
+          73
+        ],
+        "field_count": 2,
+        "drones_used": 14,
+        "split_field_customers": 1,
+        "split_field_share": 0.03333333333333333,
+        "type_drone_counts": [
+          14
+        ]
+      }
+    },
+    {
+      "instance_id": "I30_C_seed202601_grid_B50.0_h0_P4_K17",
+      "status": "optimal",
+      "upper_bound": 1067.324365129511,
+      "lower_bound": 1067.324365129511,
+      "gap_pct": 0.0,
+      "audit": {
+        "feasible": true,
+        "max_violation": {
+          "demand_balance": 0.0,
+          "nonnegative_flow": 0.0,
+          "field_capacity": 0.0,
+          "field_limit": 0.0,
+          "payload": 0.0,
+          "energy": 0.0,
+          "fleet": 0.0,
+          "link": 0.0,
+          "count_nonnegative": 0.0,
+          "y_lower": 0.0,
+          "y_upper": 0.0,
+          "y_integrality": 0.0,
+          "n_integrality": 0.0,
+          "reconstructed_payload": 0.0,
+          "reconstructed_energy": 0.0,
+          "zero_count_flow": 0.0
+        },
+        "objective": 1067.324365129511,
+        "opened_fields": [
+          66,
+          73
+        ],
+        "field_count": 2,
+        "drones_used": 14,
+        "split_field_customers": 1,
+        "split_field_share": 0.03333333333333333,
+        "type_drone_counts": [
+          14
+        ]
+      }
+    },
+    {
+      "instance_id": "I30_C_seed202601_grid_B50.0_h20_P2_K17",
+      "status": "optimal",
+      "upper_bound": 1347.324365129511,
+      "lower_bound": 1347.324365129511,
+      "gap_pct": 0.0,
+      "audit": {
+        "feasible": true,
+        "max_violation": {
+          "demand_balance": 0.0,
+          "nonnegative_flow": 0.0,
+          "field_capacity": 7.105427357601002e-15,
+          "field_limit": 0.0,
+          "payload": 0.0,
+          "energy": 0.0,
+          "fleet": 0.0,
+          "link": 0.0,
+          "count_nonnegative": 0.0,
+          "y_lower": 0.0,
+          "y_upper": 0.0,
+          "y_integrality": 0.0,
+          "n_integrality": 0.0,
+          "reconstructed_payload": 0.0,
+          "reconstructed_energy": 0.0,
+          "zero_count_flow": 0.0
+        },
+        "objective": 1347.324365129511,
+        "opened_fields": [
+          66,
+          73
+        ],
+        "field_count": 2,
+        "drones_used": 14,
+        "split_field_customers": 1,
+        "split_field_share": 0.03333333333333333,
+        "type_drone_counts": [
+          14
+        ]
+      }
+    },
+    {
+      "instance_id": "I30_C_seed202601_grid_B50.0_h20_P4_K17",
+      "status": "optimal",
+      "upper_bound": 1347.324365129511,
+      "lower_bound": 1347.324365129511,
+      "gap_pct": 0.0,
+      "audit": {
+        "feasible": true,
+        "max_violation": {
+          "demand_balance": 0.0,
+          "nonnegative_flow": 0.0,
+          "field_capacity": 0.0,
+          "field_limit": 0.0,
+          "payload": 0.0,
+          "energy": 0.0,
+          "fleet": 0.0,
+          "link": 0.0,
+          "count_nonnegative": 0.0,
+          "y_lower": 0.0,
+          "y_upper": 0.0,
+          "y_integrality": 0.0,
+          "n_integrality": 0.0,
+          "reconstructed_payload": 0.0,
+          "reconstructed_energy": 0.0,
+          "zero_count_flow": 0.0
+        },
+        "objective": 1347.324365129511,
+        "opened_fields": [
+          66,
+          73
+        ],
+        "field_count": 2,
+        "drones_used": 14,
+        "split_field_customers": 1,
+        "split_field_share": 0.03333333333333333,
+        "type_drone_counts": [
+          14
+        ]
+      }
+    },
+    {
+      "instance_id": "I30_C_seed202601_grid_two_types",
+      "status": "optimal",
+      "upper_bound": 1272.324365129511,
+      "lower_bound": 1272.324365129511,
+      "gap_pct": 0.0,
+      "audit": {
+        "feasible": true,
+        "max_violation": {
+          "demand_balance": 0.0,
+          "nonnegative_flow": 0.0,
+          "field_capacity": 0.0,
+          "field_limit": 0.0,
+          "payload": 0.0,
+          "energy": 0.0,
+          "fleet": 0.0,
+          "link": 0.0,
+          "count_nonnegative": 0.0,
+          "y_lower": 0.0,
+          "y_upper": 0.0,
+          "y_integrality": 0.0,
+          "n_integrality": 0.0,
+          "reconstructed_payload": 0.0,
+          "reconstructed_energy": 0.0,
+          "zero_count_flow": 0.0
+        },
+        "objective": 1272.324365129511,
+        "opened_fields": [
+          66,
+          73
+        ],
+        "field_count": 2,
+        "drones_used": 13,
+        "split_field_customers": 1,
+        "split_field_share": 0.03333333333333333,
+        "type_drone_counts": [
+          8,
+          5
+        ]
+      }
+    },
+    {
+      "instance_id": "I30_R_seed202601_grid_B5.0_h0_P3_K16",
+      "status": "infeasible",
+      "upper_bound": null,
+      "lower_bound": null,
+      "gap_pct": null,
+      "audit": null
+    },
+    {
+      "instance_id": "I30_R_seed202601_grid_B5.0_h0_P5_K16",
+      "status": "infeasible",
+      "upper_bound": null,
+      "lower_bound": null,
+      "gap_pct": null,
+      "audit": null
+    },
+    {
+      "instance_id": "I30_R_seed202601_grid_B5.0_h20_P3_K16",
+      "status": "infeasible",
+      "upper_bound": null,
+      "lower_bound": null,
+      "gap_pct": null,
+      "audit": null
+    },
+    {
+      "instance_id": "I30_R_seed202601_grid_B5.0_h20_P5_K16",
+      "status": "infeasible",
+      "upper_bound": null,
+      "lower_bound": null,
+      "gap_pct": null,
+      "audit": null
+    },
+    {
+      "instance_id": "I30_R_seed202601_grid_B50.0_h0_P3_K16",
+      "status": "optimal",
+      "upper_bound": 1679.1511726389429,
+      "lower_bound": 1679.1511726389429,
+      "gap_pct": 0.0,
+      "audit": {
+        "feasible": true,
+        "max_violation": {
+          "demand_balance": 0.0,
+          "nonnegative_flow": 0.0,
+          "field_capacity": 0.0,
+          "field_limit": 0.0,
+          "payload": 0.0,
+          "energy": 0.0,
+          "fleet": 0.0,
+          "link": 0.0,
+          "count_nonnegative": 0.0,
+          "y_lower": 0.0,
+          "y_upper": 0.0,
+          "y_integrality": 0.0,
+          "n_integrality": 0.0,
+          "reconstructed_payload": 0.0,
+          "reconstructed_energy": 0.0,
+          "zero_count_flow": 0.0
+        },
+        "objective": 1679.1511726389429,
+        "opened_fields": [
+          12,
+          48,
+          63
+        ],
+        "field_count": 3,
+        "drones_used": 14,
+        "split_field_customers": 0,
+        "split_field_share": 0.0,
+        "type_drone_counts": [
+          14
+        ]
+      }
+    },
+    {
+      "instance_id": "I30_R_seed202601_grid_B50.0_h0_P5_K16",
+      "status": "optimal",
+      "upper_bound": 1679.1511726389429,
+      "lower_bound": 1679.1511726389429,
+      "gap_pct": 0.0,
+      "audit": {
+        "feasible": true,
+        "max_violation": {
+          "demand_balance": 0.0,
+          "nonnegative_flow": 0.0,
+          "field_capacity": 0.0,
+          "field_limit": 0.0,
+          "payload": 0.0,
+          "energy": 0.0,
+          "fleet": 0.0,
+          "link": 0.0,
+          "count_nonnegative": 0.0,
+          "y_lower": 0.0,
+          "y_upper": 0.0,
+          "y_integrality": 0.0,
+          "n_integrality": 0.0,
+          "reconstructed_payload": 0.0,
+          "reconstructed_energy": 0.0,
+          "zero_count_flow": 0.0
+        },
+        "objective": 1679.1511726389429,
+        "opened_fields": [
+          12,
+          48,
+          63
+        ],
+        "field_count": 3,
+        "drones_used": 14,
+        "split_field_customers": 0,
+        "split_field_share": 0.0,
+        "type_drone_counts": [
+          14
+        ]
+      }
+    },
+    {
+      "instance_id": "I30_R_seed202601_grid_B50.0_h20_P3_K16",
+      "status": "optimal",
+      "upper_bound": 1944.7016102548046,
+      "lower_bound": 1944.7016102548046,
+      "gap_pct": 0.0,
+      "audit": {
+        "feasible": true,
+        "max_violation": {
+          "demand_balance": 0.0,
+          "nonnegative_flow": 0.0,
+          "field_capacity": 0.0,
+          "field_limit": 0.0,
+          "payload": 0.0,
+          "energy": 0.0,
+          "fleet": 0.0,
+          "link": 0.0,
+          "count_nonnegative": 0.0,
+          "y_lower": 0.0,
+          "y_upper": 0.0,
+          "y_integrality": 0.0,
+          "n_integrality": 0.0,
+          "reconstructed_payload": 0.0,
+          "reconstructed_energy": 0.0,
+          "zero_count_flow": 0.0
+        },
+        "objective": 1944.7016102548046,
+        "opened_fields": [
+          12,
+          48,
+          63
+        ],
+        "field_count": 3,
+        "drones_used": 13,
+        "split_field_customers": 1,
+        "split_field_share": 0.03333333333333333,
+        "type_drone_counts": [
+          13
+        ]
+      }
+    },
+    {
+      "instance_id": "I30_R_seed202601_grid_B50.0_h20_P5_K16",
+      "status": "limit",
+      "upper_bound": 1947.1499974033052,
+      "lower_bound": 1881.2728268569308,
+      "gap_pct": 3.383261209163513,
+      "audit": {
+        "feasible": true,
+        "max_violation": {
+          "demand_balance": 4.440892098500626e-15,
+          "nonnegative_flow": 0.0,
+          "field_capacity": 0.0,
+          "field_limit": 0.0,
+          "payload": 0.0,
+          "energy": 0.0,
+          "fleet": 0.0,
+          "link": 0.0,
+          "count_nonnegative": 0.0,
+          "y_lower": 0.0,
+          "y_upper": 0.0,
+          "y_integrality": 0.0,
+          "n_integrality": 4.440892098500626e-16,
+          "reconstructed_payload": 0.0,
+          "reconstructed_energy": 0.0,
+          "zero_count_flow": 0.0
+        },
+        "objective": 1947.1499974033052,
+        "opened_fields": [
+          23,
+          48,
+          63
+        ],
+        "field_count": 3,
+        "drones_used": 13,
+        "split_field_customers": 1,
+        "split_field_share": 0.03333333333333333,
+        "type_drone_counts": [
+          13
+        ]
+      }
+    },
+    {
+      "instance_id": "I30_R_seed202601_grid_two_types",
+      "status": "limit",
+      "upper_bound": 5120.016608390938,
+      "lower_bound": 1707.4443663111251,
+      "gap_pct": 66.65158539695203,
+      "audit": {
+        "feasible": true,
+        "max_violation": {
+          "demand_balance": 0.0,
+          "nonnegative_flow": 0.0,
+          "field_capacity": 0.0,
+          "field_limit": 0.0,
+          "payload": 8.881784197001252e-16,
+          "energy": 0.0,
+          "fleet": 0.0,
+          "link": 0.0,
+          "count_nonnegative": 0.0,
+          "y_lower": 0.0,
+          "y_upper": 0.0,
+          "y_integrality": 0.0,
+          "n_integrality": 0.0,
+          "reconstructed_payload": 8.881784197001252e-16,
+          "reconstructed_energy": 0.0,
+          "zero_count_flow": 0.0
+        },
+        "objective": 5120.016608390938,
+        "opened_fields": [
+          12,
+          31,
+          34,
+          38,
+          48,
+          52,
+          53,
+          56,
+          68,
+          71,
+          74,
+          76,
+          79
+        ],
+        "field_count": 13,
+        "drones_used": 13,
+        "split_field_customers": 9,
+        "split_field_share": 0.3,
+        "type_drone_counts": [
+          8,
+          5
+        ]
+      }
+    }
+  ],
+  "perturbation": [
+    {
+      "instance_id": "I30_C_seed202601_grid",
+      "task": "nominal_count",
+      "status": "optimal",
+      "upper_bound": 1067.324365129511,
+      "lower_bound": 1067.324365129511
+    },
+    {
+      "instance_id": "I30_C_seed202601_grid_scenario000",
+      "task": "fixed_fields",
+      "status": "optimal",
+      "upper_bound": 1047.4981528600651,
+      "lower_bound": 1047.4981528600651
+    },
+    {
+      "instance_id": "I30_C_seed202601_grid_scenario000",
+      "task": "reoptimized",
+      "status": "optimal",
+      "upper_bound": 1047.4981528600651,
+      "lower_bound": 1047.4981528600654
+    },
+    {
+      "instance_id": "I30_C_seed202601_grid_scenario001",
+      "task": "fixed_fields",
+      "status": "optimal",
+      "upper_bound": 1061.6489500454782,
+      "lower_bound": 1061.6489500454782
+    },
+    {
+      "instance_id": "I30_C_seed202601_grid_scenario001",
+      "task": "reoptimized",
+      "status": "optimal",
+      "upper_bound": 1061.6489500454782,
+      "lower_bound": 1061.6489500454782
+    },
+    {
+      "instance_id": "I30_C_seed202601_grid_scenario002",
+      "task": "fixed_fields",
+      "status": "optimal",
+      "upper_bound": 1047.436582899697,
+      "lower_bound": 1047.436582899697
+    },
+    {
+      "instance_id": "I30_C_seed202601_grid_scenario002",
+      "task": "reoptimized",
+      "status": "optimal",
+      "upper_bound": 1047.436582899697,
+      "lower_bound": 1047.436582899697
+    },
+    {
+      "instance_id": "I30_C_seed202601_grid_scenario003",
+      "task": "fixed_fields",
+      "status": "infeasible",
+      "upper_bound": null,
+      "lower_bound": null
+    },
+    {
+      "instance_id": "I30_C_seed202601_grid_scenario003",
+      "task": "reoptimized",
+      "status": "optimal",
+      "upper_bound": 1349.4393748361952,
+      "lower_bound": 1349.4393748361929
+    },
+    {
+      "instance_id": "I30_C_seed202601_grid_scenario004",
+      "task": "fixed_fields",
+      "status": "optimal",
+      "upper_bound": 1066.191729423132,
+      "lower_bound": 1066.1917294231323
+    },
+    {
+      "instance_id": "I30_C_seed202601_grid_scenario004",
+      "task": "reoptimized",
+      "status": "optimal",
+      "upper_bound": 1065.2317457975946,
+      "lower_bound": 1065.2317457975946
+    },
+    {
+      "instance_id": "I30_R_seed202601_grid",
+      "task": "nominal_count",
+      "status": "optimal",
+      "upper_bound": 1679.151172638944,
+      "lower_bound": 1679.1511726389442
+    },
+    {
+      "instance_id": "I30_R_seed202601_grid_scenario000",
+      "task": "fixed_fields",
+      "status": "optimal",
+      "upper_bound": 1659.996773572334,
+      "lower_bound": 1659.996773572334
+    },
+    {
+      "instance_id": "I30_R_seed202601_grid_scenario000",
+      "task": "reoptimized",
+      "status": "optimal",
+      "upper_bound": 1659.996773572334,
+      "lower_bound": 1659.996773572334
+    },
+    {
+      "instance_id": "I30_R_seed202601_grid_scenario001",
+      "task": "fixed_fields",
+      "status": "optimal",
+      "upper_bound": 1664.8122532398152,
+      "lower_bound": 1664.8122532398152
+    },
+    {
+      "instance_id": "I30_R_seed202601_grid_scenario001",
+      "task": "reoptimized",
+      "status": "optimal",
+      "upper_bound": 1664.8122532398152,
+      "lower_bound": 1664.8122532398152
+    },
+    {
+      "instance_id": "I30_R_seed202601_grid_scenario002",
+      "task": "fixed_fields",
+      "status": "optimal",
+      "upper_bound": 1663.9977522538377,
+      "lower_bound": 1663.9977522538377
+    },
+    {
+      "instance_id": "I30_R_seed202601_grid_scenario002",
+      "task": "reoptimized",
+      "status": "optimal",
+      "upper_bound": 1663.9977522538377,
+      "lower_bound": 1663.997752253838
+    },
+    {
+      "instance_id": "I30_R_seed202601_grid_scenario003",
+      "task": "fixed_fields",
+      "status": "optimal",
+      "upper_bound": 1689.9430449735012,
+      "lower_bound": 1689.943044973501
+    },
+    {
+      "instance_id": "I30_R_seed202601_grid_scenario003",
+      "task": "reoptimized",
+      "status": "optimal",
+      "upper_bound": 1689.9430449735012,
+      "lower_bound": 1689.9430449735012
+    },
+    {
+      "instance_id": "I30_R_seed202601_grid_scenario004",
+      "task": "fixed_fields",
+      "status": "optimal",
+      "upper_bound": 1674.2537383024417,
+      "lower_bound": 1674.2537383024417
+    },
+    {
+      "instance_id": "I30_R_seed202601_grid_scenario004",
+      "task": "reoptimized",
+      "status": "optimal",
+      "upper_bound": 1674.2537383024417,
+      "lower_bound": 1674.2537383024417
+    }
+  ],
+  "primary_rows": [
+    {
+      "instance_id": "I30_C_seed202601",
+      "I": 30,
+      "layout": "C",
+      "seed": 202601,
+      "upper_bound": 1067.324365129511,
+      "lr_lower_bound": 799.9797142331437,
+      "facility_lower_bound": 1067.324365129511,
+      "own_gap_pct": 0.0,
+      "lr_seconds": 6.996992588043213,
+      "aggregate_seconds": 0.10100007057189941,
+      "total_seconds": 7.097992658615112,
+      "field_count": 2,
+      "drones_used": 14,
+      "gurobi_status": "optimal",
+      "gurobi_UB": 1067.324365129511,
+      "gurobi_LB": 1067.324365129511,
+      "gurobi_seconds": 28.343000173568726,
+      "gurobi_own_gap_pct": 0.0,
+      "combined_gap_pct": 0.0,
+      "lr_excess_over_gurobi_pct": 0.0,
+      "lp_value": 833.4156036235106,
+      "LR_to_LP_pct": 95.98808934642034,
+      "count_status": "optimal",
+      "count_UB": 1067.324365129511,
+      "count_LB": 1067.324365129511
+    },
+    {
+      "instance_id": "I30_C_seed202602",
+      "I": 30,
+      "layout": "C",
+      "seed": 202602,
+      "upper_bound": 1408.5028312864931,
+      "lr_lower_bound": 870.609103825308,
+      "facility_lower_bound": 1408.5028312864933,
+      "own_gap_pct": 0.0,
+      "lr_seconds": 6.869395017623901,
+      "aggregate_seconds": 0.8280000686645508,
+      "total_seconds": 7.697395086288452,
+      "field_count": 3,
+      "drones_used": 14,
+      "gurobi_status": "optimal",
+      "gurobi_UB": 1408.5028312864931,
+      "gurobi_LB": 1408.5028312864931,
+      "gurobi_seconds": 572.4930000305176,
+      "gurobi_own_gap_pct": 0.0,
+      "combined_gap_pct": 0.0,
+      "lr_excess_over_gurobi_pct": 0.0,
+      "lp_value": 907.5291505399734,
+      "LR_to_LP_pct": 95.93180597089379,
+      "count_status": "optimal",
+      "count_UB": 1408.502831286493,
+      "count_LB": 1408.502831286493
+    },
+    {
+      "instance_id": "I30_C_seed202603",
+      "I": 30,
+      "layout": "C",
+      "seed": 202603,
+      "upper_bound": 1437.1810767852016,
+      "lr_lower_bound": 763.1670349509084,
+      "facility_lower_bound": 1380.5520147801585,
+      "own_gap_pct": 3.940287199697578,
+      "lr_seconds": 6.7466206550598145,
+      "aggregate_seconds": 0.40799999237060547,
+      "total_seconds": 7.15462064743042,
+      "field_count": 3,
+      "drones_used": 14,
+      "gurobi_status": "optimal",
+      "gurobi_UB": 1380.5520147801585,
+      "gurobi_LB": 1380.5520147801585,
+      "gurobi_seconds": 182.74300003051758,
+      "gurobi_own_gap_pct": 0.0,
+      "combined_gap_pct": 0.0,
+      "lr_excess_over_gurobi_pct": 4.101914408060958,
+      "lp_value": 786.0772643691176,
+      "LR_to_LP_pct": 97.08549903976726,
+      "count_status": "optimal",
+      "count_UB": 1380.5520147801585,
+      "count_LB": 1380.552014780158
+    },
+    {
+      "instance_id": "I30_C_seed202604",
+      "I": 30,
+      "layout": "C",
+      "seed": 202604,
+      "upper_bound": 1166.9387715278933,
+      "lr_lower_bound": 784.4003793523214,
+      "facility_lower_bound": 1166.9387715278933,
+      "own_gap_pct": 0.0,
+      "lr_seconds": 6.511101007461548,
+      "aggregate_seconds": 0.20300006866455078,
+      "total_seconds": 6.714101076126099,
+      "field_count": 2,
+      "drones_used": 13,
+      "gurobi_status": "optimal",
+      "gurobi_UB": 1166.93877152789,
+      "gurobi_LB": 1166.93877152789,
+      "gurobi_seconds": 44.50999999046326,
+      "gurobi_own_gap_pct": 0.0,
+      "combined_gap_pct": 0.0,
+      "lr_excess_over_gurobi_pct": 2.886579864025407e-13,
+      "lp_value": 817.066436562057,
+      "LR_to_LP_pct": 96.00203168946904,
+      "count_status": "optimal",
+      "count_UB": 1166.9387715278936,
+      "count_LB": 1166.9387715278933
+    },
+    {
+      "instance_id": "I30_C_seed202605",
+      "I": 30,
+      "layout": "C",
+      "seed": 202605,
+      "upper_bound": 1436.5733211340219,
+      "lr_lower_bound": 853.3725474406116,
+      "facility_lower_bound": 1423.3487543835909,
+      "own_gap_pct": 0.920563298501994,
+      "lr_seconds": 7.672816753387451,
+      "aggregate_seconds": 2.049999952316284,
+      "total_seconds": 9.722816705703735,
+      "field_count": 3,
+      "drones_used": 13,
+      "gurobi_status": "time_limit",
+      "gurobi_UB": 1423.3487543835909,
+      "gurobi_LB": 1206.7210845380075,
+      "gurobi_seconds": 600.2360000610352,
+      "gurobi_own_gap_pct": 15.219577716172465,
+      "combined_gap_pct": 0.0,
+      "lr_excess_over_gurobi_pct": 0.9291164031093757,
+      "lp_value": 879.0987245514734,
+      "LR_to_LP_pct": 97.07357360528674,
+      "count_status": "optimal",
+      "count_UB": 1423.348754383589,
+      "count_LB": 1423.3487543835893
+    },
+    {
+      "instance_id": "I30_R_seed202601",
+      "I": 30,
+      "layout": "R",
+      "seed": 202601,
+      "upper_bound": 1686.7751355957557,
+      "lr_lower_bound": 822.4369737646066,
+      "facility_lower_bound": 1679.1511726389426,
+      "own_gap_pct": 0.45198454707600244,
+      "lr_seconds": 8.25692868232727,
+      "aggregate_seconds": 4.136000156402588,
+      "total_seconds": 12.392928838729858,
+      "field_count": 3,
+      "drones_used": 14,
+      "gurobi_status": "time_limit",
+      "gurobi_UB": 1679.151172638943,
+      "gurobi_LB": 1214.3020993077428,
+      "gurobi_seconds": 600.1500000953674,
+      "gurobi_own_gap_pct": 27.68357494582495,
+      "combined_gap_pct": 2.7081977983661003e-14,
+      "lr_excess_over_gurobi_pct": 0.45403672290154073,
+      "lp_value": 885.9545045858946,
+      "LR_to_LP_pct": 92.83061031999867,
+      "count_status": "optimal",
+      "count_UB": 1679.151172638944,
+      "count_LB": 1679.1511726389442
+    },
+    {
+      "instance_id": "I30_R_seed202602",
+      "I": 30,
+      "layout": "R",
+      "seed": 202602,
+      "upper_bound": 1607.8144398708992,
+      "lr_lower_bound": 817.2627139472559,
+      "facility_lower_bound": 1588.0678734709222,
+      "own_gap_pct": 1.2281620260583364,
+      "lr_seconds": 8.227726221084595,
+      "aggregate_seconds": 3.8559999465942383,
+      "total_seconds": 12.083726167678833,
+      "field_count": 3,
+      "drones_used": 12,
+      "gurobi_status": "time_limit",
+      "gurobi_UB": 1588.0678734709222,
+      "gurobi_LB": 1175.6271341377483,
+      "gurobi_seconds": 600.1909999847412,
+      "gurobi_own_gap_pct": 25.971228700177207,
+      "combined_gap_pct": 0.0,
+      "lr_excess_over_gurobi_pct": 1.24343340293247,
+      "lp_value": 853.4124565034045,
+      "LR_to_LP_pct": 95.76409480777194,
+      "count_status": "optimal",
+      "count_UB": 1588.0678734709222,
+      "count_LB": 1588.0678734709222
+    },
+    {
+      "instance_id": "I30_R_seed202603",
+      "I": 30,
+      "layout": "R",
+      "seed": 202603,
+      "upper_bound": 1467.1210411674347,
+      "lr_lower_bound": 753.7489679160766,
+      "facility_lower_bound": 1466.9935177015245,
+      "own_gap_pct": 0.008692088950525161,
+      "lr_seconds": 7.397851467132568,
+      "aggregate_seconds": 0.5160000324249268,
+      "total_seconds": 7.913851499557495,
+      "field_count": 2,
+      "drones_used": 13,
+      "gurobi_status": "time_limit",
+      "gurobi_UB": 1467.1210411674347,
+      "gurobi_LB": 1089.1020831110807,
+      "gurobi_seconds": 600.1520001888275,
+      "gurobi_own_gap_pct": 25.766037528543137,
+      "combined_gap_pct": 0.008692088950525161,
+      "lr_excess_over_gurobi_pct": 0.0,
+      "lp_value": 786.998192609298,
+      "LR_to_LP_pct": 95.77518411027307,
+      "count_status": "optimal",
+      "count_UB": 1467.1210411674301,
+      "count_LB": 1467.1210411674301
+    },
+    {
+      "instance_id": "I30_R_seed202604",
+      "I": 30,
+      "layout": "R",
+      "seed": 202604,
+      "upper_bound": 1701.204342083773,
+      "lr_lower_bound": 821.0263427848297,
+      "facility_lower_bound": 1700.5763206648762,
+      "own_gap_pct": 0.03691628356224549,
+      "lr_seconds": 8.270509719848633,
+      "aggregate_seconds": 6.625999927520752,
+      "total_seconds": 14.896509647369385,
+      "field_count": 3,
+      "drones_used": 14,
+      "gurobi_status": "time_limit",
+      "gurobi_UB": 1700.5763206648764,
+      "gurobi_LB": 1103.464750552572,
+      "gurobi_seconds": 600.1610000133514,
+      "gurobi_own_gap_pct": 35.112306507881456,
+      "combined_gap_pct": 1.3370389360374928e-14,
+      "lr_excess_over_gurobi_pct": 0.036929916715000566,
+      "lp_value": 850.832338839276,
+      "LR_to_LP_pct": 96.49684259825993,
+      "count_status": "optimal",
+      "count_UB": 1700.5763206648762,
+      "count_LB": 1700.5763206648764
+    },
+    {
+      "instance_id": "I30_R_seed202605",
+      "I": 30,
+      "layout": "R",
+      "seed": 202605,
+      "upper_bound": 1604.2427722348534,
+      "lr_lower_bound": 721.6501284822148,
+      "facility_lower_bound": 1596.3291382754985,
+      "own_gap_pct": 0.4932940385531868,
+      "lr_seconds": 7.926612377166748,
+      "aggregate_seconds": 5.9040000438690186,
+      "total_seconds": 13.830612421035767,
+      "field_count": 3,
+      "drones_used": 13,
+      "gurobi_status": "time_limit",
+      "gurobi_UB": 1596.3291382754983,
+      "gurobi_LB": 1210.991059764304,
+      "gurobi_seconds": 600.220999956131,
+      "gurobi_own_gap_pct": 24.139011765923907,
+      "combined_gap_pct": 0.0,
+      "lr_excess_over_gurobi_pct": 0.4957394919135716,
+      "lp_value": 905.9146270882052,
+      "LR_to_LP_pct": 79.6598384553902,
+      "count_status": "optimal",
+      "count_UB": 1596.3291382754983,
+      "count_LB": 1596.3291382754983
+    },
+    {
+      "instance_id": "I30_RC_seed202601",
+      "I": 30,
+      "layout": "RC",
+      "seed": 202601,
+      "upper_bound": 1508.5249145771018,
+      "lr_lower_bound": 776.9597080149749,
+      "facility_lower_bound": 1508.5249145771018,
+      "own_gap_pct": 0.0,
+      "lr_seconds": 7.147686243057251,
+      "aggregate_seconds": 0.37800002098083496,
+      "total_seconds": 7.525686264038086,
+      "field_count": 2,
+      "drones_used": 14,
+      "gurobi_status": "time_limit",
+      "gurobi_UB": 1508.5249107095806,
+      "gurobi_LB": 1154.943402206147,
+      "gurobi_seconds": 600.1449999809265,
+      "gurobi_own_gap_pct": 23.438890932010906,
+      "combined_gap_pct": 0.0,
+      "lr_excess_over_gurobi_pct": 2.5637767464559147e-07,
+      "lp_value": 809.3946325377084,
+      "LR_to_LP_pct": 95.99269340086433,
+      "count_status": "optimal",
+      "count_UB": 1508.5249145771018,
+      "count_LB": 1508.5249145771015
+    },
+    {
+      "instance_id": "I30_RC_seed202602",
+      "I": 30,
+      "layout": "RC",
+      "seed": 202602,
+      "upper_bound": 1612.6924925637118,
+      "lr_lower_bound": 824.3100369003026,
+      "facility_lower_bound": 1612.6924925637118,
+      "own_gap_pct": 0.0,
+      "lr_seconds": 7.362678289413452,
+      "aggregate_seconds": 3.94599986076355,
+      "total_seconds": 11.308678150177002,
+      "field_count": 3,
+      "drones_used": 13,
+      "gurobi_status": "time_limit",
+      "gurobi_UB": 1612.6924916469306,
+      "gurobi_LB": 1119.9940711365907,
+      "gurobi_seconds": 600.2279999256134,
+      "gurobi_own_gap_pct": 30.551293756392536,
+      "combined_gap_pct": 0.0,
+      "lr_excess_over_gurobi_pct": 5.6847859752906515e-08,
+      "lp_value": 861.7940091556051,
+      "LR_to_LP_pct": 95.65047193910878,
+      "count_status": "optimal",
+      "count_UB": 1612.6924925637115,
+      "count_LB": 1612.6924925637115
+    },
+    {
+      "instance_id": "I30_RC_seed202603",
+      "I": 30,
+      "layout": "RC",
+      "seed": 202603,
+      "upper_bound": 1490.9554750546981,
+      "lr_lower_bound": 760.8294562403769,
+      "facility_lower_bound": 1468.9713079180046,
+      "own_gap_pct": 1.4745019220568583,
+      "lr_seconds": 7.619224309921265,
+      "aggregate_seconds": 0.6339998245239258,
+      "total_seconds": 8.25322413444519,
+      "field_count": 2,
+      "drones_used": 13,
+      "gurobi_status": "time_limit",
+      "gurobi_UB": 1469.0400138274376,
+      "gurobi_LB": 1187.3414662708028,
+      "gurobi_seconds": 600.2730000019073,
+      "gurobi_own_gap_pct": 19.175689219158656,
+      "combined_gap_pct": 0.004676925664807868,
+      "lr_excess_over_gurobi_pct": 1.491821939564586,
+      "lp_value": 789.4991802030607,
+      "LR_to_LP_pct": 96.36861890656935,
+      "count_status": "optimal",
+      "count_UB": 1469.0400616903053,
+      "count_LB": 1469.0400616903053
+    },
+    {
+      "instance_id": "I30_RC_seed202604",
+      "I": 30,
+      "layout": "RC",
+      "seed": 202604,
+      "upper_bound": 1319.0852812091725,
+      "lr_lower_bound": 758.0199241913609,
+      "facility_lower_bound": 1319.0852812091725,
+      "own_gap_pct": 0.0,
+      "lr_seconds": 6.988714933395386,
+      "aggregate_seconds": 0.30099987983703613,
+      "total_seconds": 7.289714813232422,
+      "field_count": 2,
+      "drones_used": 12,
+      "gurobi_status": "optimal",
+      "gurobi_UB": 1319.0852812091725,
+      "gurobi_LB": 1319.0852812091725,
+      "gurobi_seconds": 216.63100004196167,
+      "gurobi_own_gap_pct": 0.0,
+      "combined_gap_pct": 0.0,
+      "lr_excess_over_gurobi_pct": 0.0,
+      "lp_value": 793.9397674039334,
+      "LR_to_LP_pct": 95.4757470670571,
+      "count_status": "optimal",
+      "count_UB": 1319.0852812091725,
+      "count_LB": 1319.0852812091728
+    },
+    {
+      "instance_id": "I30_RC_seed202605",
+      "I": 30,
+      "layout": "RC",
+      "seed": 202605,
+      "upper_bound": 1535.337982353171,
+      "lr_lower_bound": 828.3808619179903,
+      "facility_lower_bound": 1505.1070875498158,
+      "own_gap_pct": 1.9690058573957143,
+      "lr_seconds": 7.21531867980957,
+      "aggregate_seconds": 3.2149999141693115,
+      "total_seconds": 10.430318593978882,
+      "field_count": 3,
+      "drones_used": 13,
+      "gurobi_status": "time_limit",
+      "gurobi_UB": 1505.1070875498158,
+      "gurobi_LB": 1247.1903493004877,
+      "gurobi_seconds": 600.2569999694824,
+      "gurobi_own_gap_pct": 17.13610548929075,
+      "combined_gap_pct": 0.0,
+      "lr_excess_over_gurobi_pct": 2.008554411405261,
+      "lp_value": 873.934240176771,
+      "LR_to_LP_pct": 94.78755080593173,
+      "count_status": "optimal",
+      "count_UB": 1505.1070875498147,
+      "count_LB": 1505.1070875498147
+    },
+    {
+      "instance_id": "I60_C_seed202601",
+      "I": 60,
+      "layout": "C",
+      "seed": 202601,
+      "upper_bound": 1933.7471769771546,
+      "lr_lower_bound": 1515.9340676351505,
+      "facility_lower_bound": 1933.7471769771544,
+      "own_gap_pct": 1.175819042687183e-14,
+      "lr_seconds": 42.41580581665039,
+      "aggregate_seconds": 1.7189998626708984,
+      "total_seconds": 44.13480567932129,
+      "field_count": 4,
+      "drones_used": 27,
+      "gurobi_status": null,
+      "gurobi_UB": null,
+      "gurobi_LB": null,
+      "gurobi_seconds": null,
+      "gurobi_own_gap_pct": null,
+      "combined_gap_pct": 1.175819042687183e-14,
+      "lr_excess_over_gurobi_pct": null,
+      "lp_value": 1560.2359991344852,
+      "LR_to_LP_pct": 97.16056215060348,
+      "count_status": "limit",
+      "count_UB": 1933.7471769771546,
+      "count_LB": 1916.5695014431215
+    },
+    {
+      "instance_id": "I60_C_seed202602",
+      "I": 60,
+      "layout": "C",
+      "seed": 202602,
+      "upper_bound": 1909.1782129139203,
+      "lr_lower_bound": 1469.5795333974488,
+      "facility_lower_bound": 1893.77399878287,
+      "own_gap_pct": 0.8068505091276621,
+      "lr_seconds": 42.79360389709473,
+      "aggregate_seconds": 1.00600004196167,
+      "total_seconds": 43.7996039390564,
+      "field_count": 4,
+      "drones_used": 27,
+      "gurobi_status": null,
+      "gurobi_UB": null,
+      "gurobi_LB": null,
+      "gurobi_seconds": null,
+      "gurobi_own_gap_pct": null,
+      "combined_gap_pct": 0.8068505091276621,
+      "lr_excess_over_gurobi_pct": null,
+      "lp_value": 1535.3856790576906,
+      "LR_to_LP_pct": 95.71403155846622,
+      "count_status": "limit",
+      "count_UB": 1893.77399878287,
+      "count_LB": 1869.8856911027
+    },
+    {
+      "instance_id": "I60_C_seed202603",
+      "I": 60,
+      "layout": "C",
+      "seed": 202603,
+      "upper_bound": 2077.8674802865353,
+      "lr_lower_bound": 1493.373342731053,
+      "facility_lower_bound": 2070.7136418367454,
+      "own_gap_pct": 0.3442875215893637,
+      "lr_seconds": 40.84297442436218,
+      "aggregate_seconds": 1.4759998321533203,
+      "total_seconds": 42.3189742565155,
+      "field_count": 4,
+      "drones_used": 27,
+      "gurobi_status": null,
+      "gurobi_UB": null,
+      "gurobi_LB": null,
+      "gurobi_seconds": null,
+      "gurobi_own_gap_pct": null,
+      "combined_gap_pct": 0.3442875215893637,
+      "lr_excess_over_gurobi_pct": null,
+      "lp_value": 1535.7555533669108,
+      "LR_to_LP_pct": 97.24030230312754,
+      "count_status": "limit",
+      "count_UB": 2328.1309318122803,
+      "count_LB": 2068.6058873414454
+    },
+    {
+      "instance_id": "I60_C_seed202604",
+      "I": 60,
+      "layout": "C",
+      "seed": 202604,
+      "upper_bound": 2004.6459293476028,
+      "lr_lower_bound": 1499.8845175557562,
+      "facility_lower_bound": 1950.5122296973739,
+      "own_gap_pct": 2.7004120207824585,
+      "lr_seconds": 43.398146629333496,
+      "aggregate_seconds": 1.3630001544952393,
+      "total_seconds": 44.761146783828735,
+      "field_count": 4,
+      "drones_used": 26,
+      "gurobi_status": null,
+      "gurobi_UB": null,
+      "gurobi_LB": null,
+      "gurobi_seconds": null,
+      "gurobi_own_gap_pct": null,
+      "combined_gap_pct": 2.7004120207824585,
+      "lr_excess_over_gurobi_pct": null,
+      "lp_value": 1536.5843001210299,
+      "LR_to_LP_pct": 97.61159979557367,
+      "count_status": "limit",
+      "count_UB": 1950.5122296973727,
+      "count_LB": 1938.0772382010941
+    },
+    {
+      "instance_id": "I60_C_seed202605",
+      "I": 60,
+      "layout": "C",
+      "seed": 202605,
+      "upper_bound": 2106.0171780481746,
+      "lr_lower_bound": 1471.675241337974,
+      "facility_lower_bound": 2051.944542101738,
+      "own_gap_pct": 2.567530621784874,
+      "lr_seconds": 40.89002728462219,
+      "aggregate_seconds": 2.38100004196167,
+      "total_seconds": 43.27102732658386,
+      "field_count": 4,
+      "drones_used": 27,
+      "gurobi_status": null,
+      "gurobi_UB": null,
+      "gurobi_LB": null,
+      "gurobi_seconds": null,
+      "gurobi_own_gap_pct": null,
+      "combined_gap_pct": 2.567530621784874,
+      "lr_excess_over_gurobi_pct": null,
+      "lp_value": 1520.1703953182473,
+      "LR_to_LP_pct": 96.80988696203883,
+      "count_status": "limit",
+      "count_UB": 2163.642604680148,
+      "count_LB": 1990.2579114463088
+    },
+    {
+      "instance_id": "I60_R_seed202601",
+      "I": 60,
+      "layout": "R",
+      "seed": 202601,
+      "upper_bound": 2570.752253648052,
+      "lr_lower_bound": 1472.7698995303253,
+      "facility_lower_bound": 2467.0458514543275,
+      "own_gap_pct": 4.03408776736688,
+      "lr_seconds": 41.11098027229309,
+      "aggregate_seconds": 8.09600019454956,
+      "total_seconds": 49.20698046684265,
+      "field_count": 4,
+      "drones_used": 27,
+      "gurobi_status": null,
+      "gurobi_UB": null,
+      "gurobi_LB": null,
+      "gurobi_seconds": null,
+      "gurobi_own_gap_pct": null,
+      "combined_gap_pct": 4.03408776736688,
+      "lr_excess_over_gurobi_pct": null,
+      "lp_value": 1525.8084376397103,
+      "LR_to_LP_pct": 96.52390583241032,
+      "count_status": "limit",
+      "count_UB": 2620.48939726829,
+      "count_LB": 2458.9715595602675
+    },
+    {
+      "instance_id": "I60_R_seed202602",
+      "I": 60,
+      "layout": "R",
+      "seed": 202602,
+      "upper_bound": 2775.1508711775614,
+      "lr_lower_bound": 1540.1860828753165,
+      "facility_lower_bound": 2571.4845190866718,
+      "own_gap_pct": 7.338929000442748,
+      "lr_seconds": 45.03002166748047,
+      "aggregate_seconds": 300.0499999523163,
+      "total_seconds": 345.08002161979675,
+      "field_count": 5,
+      "drones_used": 26,
+      "gurobi_status": null,
+      "gurobi_UB": null,
+      "gurobi_LB": null,
+      "gurobi_seconds": null,
+      "gurobi_own_gap_pct": null,
+      "combined_gap_pct": 7.338929000442748,
+      "lr_excess_over_gurobi_pct": null,
+      "lp_value": 1595.5853405186338,
+      "LR_to_LP_pct": 96.52796649376899,
+      "count_status": "optimal",
+      "count_UB": 2648.386039898112,
+      "count_LB": 2648.386039898112
+    },
+    {
+      "instance_id": "I60_R_seed202603",
+      "I": 60,
+      "layout": "R",
+      "seed": 202603,
+      "upper_bound": 2708.2585918125287,
+      "lr_lower_bound": 1552.4763550280786,
+      "facility_lower_bound": 2582.4511305514134,
+      "own_gap_pct": 4.6453267661164315,
+      "lr_seconds": 43.59183931350708,
+      "aggregate_seconds": 4.885999917984009,
+      "total_seconds": 48.47783923149109,
+      "field_count": 4,
+      "drones_used": 28,
+      "gurobi_status": null,
+      "gurobi_UB": null,
+      "gurobi_LB": null,
+      "gurobi_seconds": null,
+      "gurobi_own_gap_pct": null,
+      "combined_gap_pct": 4.6453267661164315,
+      "lr_excess_over_gurobi_pct": null,
+      "lp_value": 1597.2509626526435,
+      "LR_to_LP_pct": 97.196770659621,
+      "count_status": "limit",
+      "count_UB": 2780.589639756449,
+      "count_LB": 2581.402635638143
+    },
+    {
+      "instance_id": "I60_R_seed202604",
+      "I": 60,
+      "layout": "R",
+      "seed": 202604,
+      "upper_bound": 2906.346183337001,
+      "lr_lower_bound": 1547.4696559286763,
+      "facility_lower_bound": 2626.3953434721907,
+      "own_gap_pct": 9.632398283103948,
+      "lr_seconds": 47.73165154457092,
+      "aggregate_seconds": 300.0519998073578,
+      "total_seconds": 347.7836513519287,
+      "field_count": 5,
+      "drones_used": 28,
+      "gurobi_status": null,
+      "gurobi_UB": null,
+      "gurobi_LB": null,
+      "gurobi_seconds": null,
+      "gurobi_own_gap_pct": null,
+      "combined_gap_pct": 9.632398283103948,
+      "lr_excess_over_gurobi_pct": null,
+      "lp_value": 1605.0233537235454,
+      "LR_to_LP_pct": 96.4141520021283,
+      "count_status": "optimal",
+      "count_UB": 2782.4868510698507,
+      "count_LB": 2782.486851069851
+    },
+    {
+      "instance_id": "I60_R_seed202605",
+      "I": 60,
+      "layout": "R",
+      "seed": 202605,
+      "upper_bound": 2491.949282713979,
+      "lr_lower_bound": 1506.356284291233,
+      "facility_lower_bound": 2453.7433893734237,
+      "own_gap_pct": 1.533172990541169,
+      "lr_seconds": 44.63957357406616,
+      "aggregate_seconds": 3.2940001487731934,
+      "total_seconds": 47.933573722839355,
+      "field_count": 4,
+      "drones_used": 27,
+      "gurobi_status": null,
+      "gurobi_UB": null,
+      "gurobi_LB": null,
+      "gurobi_seconds": null,
+      "gurobi_own_gap_pct": null,
+      "combined_gap_pct": 1.533172990541169,
+      "lr_excess_over_gurobi_pct": null,
+      "lp_value": 1566.9503727185615,
+      "LR_to_LP_pct": 96.1329925004452,
+      "count_status": "limit",
+      "count_UB": 2702.381559966067,
+      "count_LB": 2452.737147421982
+    },
+    {
+      "instance_id": "I60_RC_seed202601",
+      "I": 60,
+      "layout": "RC",
+      "seed": 202601,
+      "upper_bound": 2456.2707537838537,
+      "lr_lower_bound": 1488.1362819877918,
+      "facility_lower_bound": 2379.1166922630246,
+      "own_gap_pct": 3.141105735268569,
+      "lr_seconds": 46.14689612388611,
+      "aggregate_seconds": 6.546999931335449,
+      "total_seconds": 52.69389605522156,
+      "field_count": 4,
+      "drones_used": 28,
+      "gurobi_status": null,
+      "gurobi_UB": null,
+      "gurobi_LB": null,
+      "gurobi_seconds": null,
+      "gurobi_own_gap_pct": null,
+      "combined_gap_pct": 3.141105735268569,
+      "lr_excess_over_gurobi_pct": null,
+      "lp_value": 1573.7287126608023,
+      "LR_to_LP_pct": 94.56116991547457,
+      "count_status": "limit",
+      "count_UB": 6473.949806685176,
+      "count_LB": 2375.634497856612
+    },
+    {
+      "instance_id": "I60_RC_seed202602",
+      "I": 60,
+      "layout": "RC",
+      "seed": 202602,
+      "upper_bound": 2344.225641162509,
+      "lr_lower_bound": 1444.5955622882661,
+      "facility_lower_bound": 2323.2487867868213,
+      "own_gap_pct": 0.8948308561835037,
+      "lr_seconds": 41.795766830444336,
+      "aggregate_seconds": 2.263000011444092,
+      "total_seconds": 44.05876684188843,
+      "field_count": 4,
+      "drones_used": 27,
+      "gurobi_status": null,
+      "gurobi_UB": null,
+      "gurobi_LB": null,
+      "gurobi_seconds": null,
+      "gurobi_own_gap_pct": null,
+      "combined_gap_pct": 0.8948308561835037,
+      "lr_excess_over_gurobi_pct": null,
+      "lp_value": 1524.3464976720331,
+      "LR_to_LP_pct": 94.7681884987723,
+      "count_status": "limit",
+      "count_UB": 7910.691968607503,
+      "count_LB": 2316.246416648571
+    },
+    {
+      "instance_id": "I60_RC_seed202603",
+      "I": 60,
+      "layout": "RC",
+      "seed": 202603,
+      "upper_bound": 2440.6439826639544,
+      "lr_lower_bound": 1511.932733471735,
+      "facility_lower_bound": 2337.654238737106,
+      "own_gap_pct": 4.219777429989419,
+      "lr_seconds": 47.8001766204834,
+      "aggregate_seconds": 2.2929999828338623,
+      "total_seconds": 50.09317660331726,
+      "field_count": 4,
+      "drones_used": 28,
+      "gurobi_status": null,
+      "gurobi_UB": null,
+      "gurobi_LB": null,
+      "gurobi_seconds": null,
+      "gurobi_own_gap_pct": null,
+      "combined_gap_pct": 4.219777429989419,
+      "lr_excess_over_gurobi_pct": null,
+      "lp_value": 1588.1304857894143,
+      "LR_to_LP_pct": 95.20204712399287,
+      "count_status": "optimal",
+      "count_UB": 2337.654238737106,
+      "count_LB": 2337.654238737106
+    },
+    {
+      "instance_id": "I60_RC_seed202604",
+      "I": 60,
+      "layout": "RC",
+      "seed": 202604,
+      "upper_bound": 2372.765795737745,
+      "lr_lower_bound": 1492.4454582634587,
+      "facility_lower_bound": 2339.19592097663,
+      "own_gap_pct": 1.4147993376091876,
+      "lr_seconds": 43.92568874359131,
+      "aggregate_seconds": 6.550999879837036,
+      "total_seconds": 50.476688623428345,
+      "field_count": 4,
+      "drones_used": 27,
+      "gurobi_status": null,
+      "gurobi_UB": null,
+      "gurobi_LB": null,
+      "gurobi_seconds": null,
+      "gurobi_own_gap_pct": null,
+      "combined_gap_pct": 1.4147993376091876,
+      "lr_excess_over_gurobi_pct": null,
+      "lp_value": 1560.8591625212814,
+      "LR_to_LP_pct": 95.61692009756261,
+      "count_status": "limit",
+      "count_UB": 2357.3451975221246,
+      "count_LB": 2335.489586383937
+    },
+    {
+      "instance_id": "I60_RC_seed202605",
+      "I": 60,
+      "layout": "RC",
+      "seed": 202605,
+      "upper_bound": 2244.7521644056965,
+      "lr_lower_bound": 1410.93279606553,
+      "facility_lower_bound": 2243.3667555239463,
+      "own_gap_pct": 0.06171767662008243,
+      "lr_seconds": 41.965569257736206,
+      "aggregate_seconds": 13.576000213623047,
+      "total_seconds": 55.54156947135925,
+      "field_count": 4,
+      "drones_used": 24,
+      "gurobi_status": null,
+      "gurobi_UB": null,
+      "gurobi_LB": null,
+      "gurobi_seconds": null,
+      "gurobi_own_gap_pct": null,
+      "combined_gap_pct": 0.06171767662008243,
+      "lr_excess_over_gurobi_pct": null,
+      "lp_value": 1582.5571886218434,
+      "LR_to_LP_pct": 89.15524861974997,
+      "count_status": "limit",
+      "count_UB": 2410.7372673778173,
+      "count_LB": 2134.5575263943874
+    },
+    {
+      "instance_id": "I100_C_seed202601",
+      "I": 100,
+      "layout": "C",
+      "seed": 202601,
+      "upper_bound": 3071.0168297476184,
+      "lr_lower_bound": 2521.272256398856,
+      "facility_lower_bound": 3059.594005342485,
+      "own_gap_pct": 0.3719557735563441,
+      "lr_seconds": 191.84370112419128,
+      "aggregate_seconds": 39.77500009536743,
+      "total_seconds": 231.61870121955872,
+      "field_count": 7,
+      "drones_used": 42,
+      "gurobi_status": null,
+      "gurobi_UB": null,
+      "gurobi_LB": null,
+      "gurobi_seconds": null,
+      "gurobi_own_gap_pct": null,
+      "combined_gap_pct": 0.3719557735563441,
+      "lr_excess_over_gurobi_pct": null,
+      "lp_value": 2605.606901576031,
+      "LR_to_LP_pct": 96.76333966086119,
+      "count_status": "limit",
+      "count_UB": 10907.506753111527,
+      "count_LB": 3000.472648803992
+    },
+    {
+      "instance_id": "I100_C_seed202602",
+      "I": 100,
+      "layout": "C",
+      "seed": 202602,
+      "upper_bound": 3046.49351997507,
+      "lr_lower_bound": 2360.412358441623,
+      "facility_lower_bound": 3018.6177886607848,
+      "own_gap_pct": 0.9150103596646807,
+      "lr_seconds": 173.24900674819946,
+      "aggregate_seconds": 72.8659999370575,
+      "total_seconds": 246.11500668525696,
+      "field_count": 7,
+      "drones_used": 41,
+      "gurobi_status": null,
+      "gurobi_UB": null,
+      "gurobi_LB": null,
+      "gurobi_seconds": null,
+      "gurobi_own_gap_pct": null,
+      "combined_gap_pct": 0.9150103596646807,
+      "lr_excess_over_gurobi_pct": null,
+      "lp_value": 2487.5563090319315,
+      "LR_to_LP_pct": 94.88880110457525,
+      "count_status": "limit",
+      "count_UB": 10068.961530027049,
+      "count_LB": 2866.798271565541
+    },
+    {
+      "instance_id": "I100_C_seed202603",
+      "I": 100,
+      "layout": "C",
+      "seed": 202603,
+      "upper_bound": 3288.7306492369216,
+      "lr_lower_bound": 2497.440775050105,
+      "facility_lower_bound": 3233.764039611153,
+      "own_gap_pct": 1.6713624643758103,
+      "lr_seconds": 180.1213276386261,
+      "aggregate_seconds": 239.42300009727478,
+      "total_seconds": 419.5443277359009,
+      "field_count": 7,
+      "drones_used": 41,
+      "gurobi_status": null,
+      "gurobi_UB": null,
+      "gurobi_LB": null,
+      "gurobi_seconds": null,
+      "gurobi_own_gap_pct": null,
+      "combined_gap_pct": 1.6713624643758103,
+      "lr_excess_over_gurobi_pct": null,
+      "lp_value": 2595.9319982432557,
+      "LR_to_LP_pct": 96.20593978348421,
+      "count_status": "limit",
+      "count_UB": 13408.634641091418,
+      "count_LB": 3087.121723259337
+    },
+    {
+      "instance_id": "I100_C_seed202604",
+      "I": 100,
+      "layout": "C",
+      "seed": 202604,
+      "upper_bound": 3411.3216256977894,
+      "lr_lower_bound": 2543.7657162920427,
+      "facility_lower_bound": 3236.071504273074,
+      "own_gap_pct": 5.1373086637314005,
+      "lr_seconds": 185.79468870162964,
+      "aggregate_seconds": 89.40999984741211,
+      "total_seconds": 275.20468854904175,
+      "field_count": 7,
+      "drones_used": 42,
+      "gurobi_status": null,
+      "gurobi_UB": null,
+      "gurobi_LB": null,
+      "gurobi_seconds": null,
+      "gurobi_own_gap_pct": null,
+      "combined_gap_pct": 5.1373086637314005,
+      "lr_excess_over_gurobi_pct": null,
+      "lp_value": 2636.0713976951506,
+      "LR_to_LP_pct": 96.49836186213258,
+      "count_status": "limit",
+      "count_UB": 12157.658773036412,
+      "count_LB": 3115.2222647008894
+    },
+    {
+      "instance_id": "I100_C_seed202605",
+      "I": 100,
+      "layout": "C",
+      "seed": 202605,
+      "upper_bound": 3271.1427600058405,
+      "lr_lower_bound": 2445.0735815304156,
+      "facility_lower_bound": 3094.4543709495883,
+      "own_gap_pct": 5.401427024723821,
+      "lr_seconds": 196.19085788726807,
+      "aggregate_seconds": 300.03399991989136,
+      "total_seconds": 496.2248578071594,
+      "field_count": 7,
+      "drones_used": 45,
+      "gurobi_status": null,
+      "gurobi_UB": null,
+      "gurobi_LB": null,
+      "gurobi_seconds": null,
+      "gurobi_own_gap_pct": null,
+      "combined_gap_pct": 5.401427024723821,
+      "lr_excess_over_gurobi_pct": null,
+      "lp_value": 2536.062573430377,
+      "LR_to_LP_pct": 96.4121945233833,
+      "count_status": "limit",
+      "count_UB": 12071.591731705692,
+      "count_LB": 2976.3756177894793
+    },
+    {
+      "instance_id": "I100_R_seed202601",
+      "I": 100,
+      "layout": "R",
+      "seed": 202601,
+      "upper_bound": 3893.964525803885,
+      "lr_lower_bound": 2491.421273477384,
+      "facility_lower_bound": 3657.8680011929378,
+      "own_gap_pct": 6.063140099156566,
+      "lr_seconds": 208.9377179145813,
+      "aggregate_seconds": 300.04499983787537,
+      "total_seconds": 508.98271775245667,
+      "field_count": 7,
+      "drones_used": 41,
+      "gurobi_status": null,
+      "gurobi_UB": null,
+      "gurobi_LB": null,
+      "gurobi_seconds": null,
+      "gurobi_own_gap_pct": null,
+      "combined_gap_pct": 6.063140099156566,
+      "lr_excess_over_gurobi_pct": null,
+      "lp_value": 2578.687670039317,
+      "LR_to_LP_pct": 96.61586016888187,
+      "count_status": "limit",
+      "count_UB": 14550.755761790408,
+      "count_LB": 3570.2753979719514
+    },
+    {
+      "instance_id": "I100_R_seed202602",
+      "I": 100,
+      "layout": "R",
+      "seed": 202602,
+      "upper_bound": 4002.9617896253303,
+      "lr_lower_bound": 2363.2061271313087,
+      "facility_lower_bound": 3705.258831917251,
+      "own_gap_pct": 7.43706718559369,
+      "lr_seconds": 204.9744484424591,
+      "aggregate_seconds": 300.07100009918213,
+      "total_seconds": 505.04544854164124,
+      "field_count": 7,
+      "drones_used": 46,
+      "gurobi_status": null,
+      "gurobi_UB": null,
+      "gurobi_LB": null,
+      "gurobi_seconds": null,
+      "gurobi_own_gap_pct": null,
+      "combined_gap_pct": 7.43706718559369,
+      "lr_excess_over_gurobi_pct": null,
+      "lp_value": 2430.8898062142403,
+      "LR_to_LP_pct": 97.21568296062176,
+      "count_status": "limit",
+      "count_UB": 15477.389179478932,
+      "count_LB": 3595.323758680981
+    },
+    {
+      "instance_id": "I100_R_seed202603",
+      "I": 100,
+      "layout": "R",
+      "seed": 202603,
+      "upper_bound": 4030.4086164794676,
+      "lr_lower_bound": 2386.507981568468,
+      "facility_lower_bound": 3790.920162391735,
+      "own_gap_pct": 5.942039055507077,
+      "lr_seconds": 201.99273037910461,
+      "aggregate_seconds": 300.0550000667572,
+      "total_seconds": 502.0477304458618,
+      "field_count": 7,
+      "drones_used": 45,
+      "gurobi_status": null,
+      "gurobi_UB": null,
+      "gurobi_LB": null,
+      "gurobi_seconds": null,
+      "gurobi_own_gap_pct": null,
+      "combined_gap_pct": 5.942039055507077,
+      "lr_excess_over_gurobi_pct": null,
+      "lp_value": 2456.1153819093684,
+      "LR_to_LP_pct": 97.16595560397542,
+      "count_status": "limit",
+      "count_UB": 15500.889262455425,
+      "count_LB": 3586.3917434793743
+    },
+    {
+      "instance_id": "I100_R_seed202604",
+      "I": 100,
+      "layout": "R",
+      "seed": 202604,
+      "upper_bound": 4109.118909920101,
+      "lr_lower_bound": 2470.7593695610053,
+      "facility_lower_bound": 3872.721027283909,
+      "own_gap_pct": 5.753006613303113,
+      "lr_seconds": 204.27733731269836,
+      "aggregate_seconds": 300.07499980926514,
+      "total_seconds": 504.3523371219635,
+      "field_count": 7,
+      "drones_used": 47,
+      "gurobi_status": null,
+      "gurobi_UB": null,
+      "gurobi_LB": null,
+      "gurobi_seconds": null,
+      "gurobi_own_gap_pct": null,
+      "combined_gap_pct": 5.753006613303113,
+      "lr_excess_over_gurobi_pct": null,
+      "lp_value": 2554.0761658166043,
+      "LR_to_LP_pct": 96.73788912912234,
+      "count_status": "limit",
+      "count_UB": 15659.664688872872,
+      "count_LB": 3750.738239996972
+    },
+    {
+      "instance_id": "I100_R_seed202605",
+      "I": 100,
+      "layout": "R",
+      "seed": 202605,
+      "upper_bound": 3966.0332094278046,
+      "lr_lower_bound": 2425.272582658852,
+      "facility_lower_bound": 3722.57509457489,
+      "own_gap_pct": 6.138579835241452,
+      "lr_seconds": 187.18732810020447,
+      "aggregate_seconds": 300.05400013923645,
+      "total_seconds": 487.2413282394409,
+      "field_count": 7,
+      "drones_used": 45,
+      "gurobi_status": null,
+      "gurobi_UB": null,
+      "gurobi_LB": null,
+      "gurobi_seconds": null,
+      "gurobi_own_gap_pct": null,
+      "combined_gap_pct": 6.138579835241452,
+      "lr_excess_over_gurobi_pct": null,
+      "lp_value": 2503.1615739933827,
+      "LR_to_LP_pct": 96.88837539918481,
+      "count_status": "limit",
+      "count_UB": 15266.771207805648,
+      "count_LB": 3591.2705559979363
+    },
+    {
+      "instance_id": "I100_RC_seed202601",
+      "I": 100,
+      "layout": "RC",
+      "seed": 202601,
+      "upper_bound": 3974.954208759662,
+      "lr_lower_bound": 2293.228776332848,
+      "facility_lower_bound": 3589.6194575403133,
+      "own_gap_pct": 9.694067679325238,
+      "lr_seconds": 194.2692699432373,
+      "aggregate_seconds": 300.1050000190735,
+      "total_seconds": 494.3742699623108,
+      "field_count": 7,
+      "drones_used": 45,
+      "gurobi_status": null,
+      "gurobi_UB": null,
+      "gurobi_LB": null,
+      "gurobi_seconds": null,
+      "gurobi_own_gap_pct": null,
+      "combined_gap_pct": 9.694067679325238,
+      "lr_excess_over_gurobi_pct": null,
+      "lp_value": 2536.2716125333427,
+      "LR_to_LP_pct": 90.41731827934105,
+      "count_status": "limit",
+      "count_UB": 13900.531750978562,
+      "count_LB": 3464.4811172966884
+    },
+    {
+      "instance_id": "I100_RC_seed202602",
+      "I": 100,
+      "layout": "RC",
+      "seed": 202602,
+      "upper_bound": 3831.8961199205414,
+      "lr_lower_bound": 2283.1587897697295,
+      "facility_lower_bound": 3562.689722332851,
+      "own_gap_pct": 7.025409592608494,
+      "lr_seconds": 203.85376238822937,
+      "aggregate_seconds": 300.0590000152588,
+      "total_seconds": 503.91276240348816,
+      "field_count": 7,
+      "drones_used": 44,
+      "gurobi_status": null,
+      "gurobi_UB": null,
+      "gurobi_LB": null,
+      "gurobi_seconds": null,
+      "gurobi_own_gap_pct": null,
+      "combined_gap_pct": 7.025409592608494,
+      "lr_excess_over_gurobi_pct": null,
+      "lp_value": 2446.1458324276196,
+      "LR_to_LP_pct": 93.33698586170811,
+      "count_status": "limit",
+      "count_UB": 14208.132110137605,
+      "count_LB": 3355.2291303569846
+    },
+    {
+      "instance_id": "I100_RC_seed202603",
+      "I": 100,
+      "layout": "RC",
+      "seed": 202603,
+      "upper_bound": 3780.0059684681682,
+      "lr_lower_bound": 2497.926853279469,
+      "facility_lower_bound": 3683.1729064126534,
+      "own_gap_pct": 2.5617171735513424,
+      "lr_seconds": 208.60240745544434,
+      "aggregate_seconds": 51.64200019836426,
+      "total_seconds": 260.2444076538086,
+      "field_count": 7,
+      "drones_used": 42,
+      "gurobi_status": null,
+      "gurobi_UB": null,
+      "gurobi_LB": null,
+      "gurobi_seconds": null,
+      "gurobi_own_gap_pct": null,
+      "combined_gap_pct": 2.5617171735513424,
+      "lr_excess_over_gurobi_pct": null,
+      "lp_value": 2659.598243163501,
+      "LR_to_LP_pct": 93.92121008127417,
+      "count_status": "limit",
+      "count_UB": 13711.157303865808,
+      "count_LB": 3568.431376019935
+    },
+    {
+      "instance_id": "I100_RC_seed202604",
+      "I": 100,
+      "layout": "RC",
+      "seed": 202604,
+      "upper_bound": 3831.911998157205,
+      "lr_lower_bound": 2375.932153697236,
+      "facility_lower_bound": 3674.717534600186,
+      "own_gap_pct": 4.10224617978218,
+      "lr_seconds": 193.14572477340698,
+      "aggregate_seconds": 300.0680000782013,
+      "total_seconds": 493.2137248516083,
+      "field_count": 7,
+      "drones_used": 46,
+      "gurobi_status": null,
+      "gurobi_UB": null,
+      "gurobi_LB": null,
+      "gurobi_seconds": null,
+      "gurobi_own_gap_pct": null,
+      "combined_gap_pct": 4.10224617978218,
+      "lr_excess_over_gurobi_pct": null,
+      "lp_value": 2608.770088640825,
+      "LR_to_LP_pct": 91.07480049861742,
+      "count_status": "limit",
+      "count_UB": 14865.895448066061,
+      "count_LB": 3481.5915648465166
+    },
+    {
+      "instance_id": "I100_RC_seed202605",
+      "I": 100,
+      "layout": "RC",
+      "seed": 202605,
+      "upper_bound": 3879.7942906818075,
+      "lr_lower_bound": 2358.49997613466,
+      "facility_lower_bound": 3511.7706441590876,
+      "own_gap_pct": 9.485648437769264,
+      "lr_seconds": 182.37684845924377,
+      "aggregate_seconds": 300.0620000362396,
+      "total_seconds": 482.4388484954834,
+      "field_count": 7,
+      "drones_used": 45,
+      "gurobi_status": null,
+      "gurobi_UB": null,
+      "gurobi_LB": null,
+      "gurobi_seconds": null,
+      "gurobi_own_gap_pct": null,
+      "combined_gap_pct": 9.485648437769264,
+      "lr_excess_over_gurobi_pct": null,
+      "lp_value": 2472.240217803343,
+      "LR_to_LP_pct": 95.39930461248848,
+      "count_status": "limit",
+      "count_UB": 14814.959603375359,
+      "count_LB": 3372.357499692845
+    }
+  ],
+  "primary_groups": {
+    "I30_C": {
+      "upper_bound": {
+        "n": 5,
+        "mean": 1303.3040731726242,
+        "sd": 173.94858533338967,
+        "ci95": [
+          1087.318377225679,
+          1519.2897691195694
+        ],
+        "max": 1437.1810767852016
+      },
+      "own_gap_pct": {
+        "n": 5,
+        "mean": 0.9721700996399145,
+        "sd": 1.7064382855439022,
+        "ci95": [
+          -1.1466528846765034,
+          3.0909930839563327
+        ],
+        "max": 3.940287199697578
+      },
+      "lp_value": {
+        "n": 5,
+        "mean": 844.6374359292264,
+        "sd": 48.626976565834575,
+        "ci95": [
+          784.2590697859315,
+          905.0158020725213
+        ],
+        "max": 907.5291505399734
+      },
+      "LR_to_LP_pct": {
+        "n": 5,
+        "mean": 96.41619993036744,
+        "sd": 0.6061255971643293,
+        "ci95": [
+          95.66359559797874,
+          97.16880426275614
+        ],
+        "max": 97.08549903976726
+      },
+      "lr_lower_bound": {
+        "n": 5,
+        "mean": 814.3057559604587,
+        "sd": 45.85579839421592,
+        "ci95": [
+          757.3682619854708,
+          871.2432499354466
+        ],
+        "max": 870.609103825308
+      },
+      "facility_lower_bound": {
+        "n": 5,
+        "mean": 1289.3333474215294,
+        "sd": 161.82611106451103,
+        "ci95": [
+          1088.3996913434023,
+          1490.2670034996565
+        ],
+        "max": 1423.3487543835909
+      },
+      "lr_seconds": {
+        "n": 5,
+        "mean": 6.959385204315185,
+        "sd": 0.43724266683153307,
+        "ci95": [
+          6.416476726431868,
+          7.502293682198503
+        ],
+        "max": 7.672816753387451
+      },
+      "aggregate_seconds": {
+        "n": 5,
+        "mean": 0.7180000305175781,
+        "sd": 0.795037378837751,
+        "ci95": [
+          -0.2691692600115444,
+          1.7051693210467005
+        ],
+        "max": 2.049999952316284
+      },
+      "total_seconds": {
+        "n": 5,
+        "mean": 7.677385234832764,
+        "sd": 1.1959395091117635,
+        "ci95": [
+          6.192430202339205,
+          9.162340267326323
+        ],
+        "max": 9.722816705703735
+      }
+    },
+    "I30_R": {
+      "upper_bound": {
+        "n": 5,
+        "mean": 1613.431546190543,
+        "sd": 93.0135677416029,
+        "ci95": [
+          1497.9399477813076,
+          1728.9231445997784
+        ],
+        "max": 1701.204342083773
+      },
+      "own_gap_pct": {
+        "n": 5,
+        "mean": 0.4438097968400593,
+        "sd": 0.49310589305584973,
+        "ci95": [
+          -0.16846203786950475,
+          1.0560816315496233
+        ],
+        "max": 1.2281620260583364
+      },
+      "lp_value": {
+        "n": 5,
+        "mean": 856.6224239252157,
+        "sd": 45.22569737170983,
+        "ci95": [
+          800.467303705105,
+          912.7775441453264
+        ],
+        "max": 905.9146270882052
+      },
+      "LR_to_LP_pct": {
+        "n": 5,
+        "mean": 92.10531405833876,
+        "sd": 7.09852208805141,
+        "ci95": [
+          83.29133474115112,
+          100.91929337552641
+        ],
+        "max": 96.49684259825993
+      },
+      "lr_lower_bound": {
+        "n": 5,
+        "mean": 787.2250253789966,
+        "sd": 46.651330710625935,
+        "ci95": [
+          729.2997475673147,
+          845.1503031906785
+        ],
+        "max": 822.4369737646066
+      },
+      "facility_lower_bound": {
+        "n": 5,
+        "mean": 1606.2236045503528,
+        "sd": 92.24073577239186,
+        "ci95": [
+          1491.6916037739477,
+          1720.7556053267579
+        ],
+        "max": 1700.5763206648762
+      },
+      "lr_seconds": {
+        "n": 5,
+        "mean": 8.015925693511964,
+        "sd": 0.3734124891975408,
+        "ci95": [
+          7.552272849195726,
+          8.479578537828202
+        ],
+        "max": 8.270509719848633
+      },
+      "aggregate_seconds": {
+        "n": 5,
+        "mean": 4.207600021362305,
+        "sd": 2.370816883166516,
+        "ci95": [
+          1.2638420512007826,
+          7.1513579915238275
+        ],
+        "max": 6.625999927520752
+      },
+      "total_seconds": {
+        "n": 5,
+        "mean": 12.223525714874267,
+        "sd": 2.662193830209983,
+        "ci95": [
+          8.917975479662347,
+          15.529075950086186
+        ],
+        "max": 14.896509647369385
+      }
+    },
+    "I30_RC": {
+      "upper_bound": {
+        "n": 5,
+        "mean": 1493.3192291515709,
+        "sd": 107.94653822212922,
+        "ci95": [
+          1359.2858989104266,
+          1627.3525593927152
+        ],
+        "max": 1612.6924925637118
+      },
+      "own_gap_pct": {
+        "n": 5,
+        "mean": 0.6887015558905145,
+        "sd": 0.9591129781180531,
+        "ci95": [
+          -0.5021944992486667,
+          1.8795976110296957
+        ],
+        "max": 1.9690058573957143
+      },
+      "lp_value": {
+        "n": 5,
+        "mean": 825.7123658954157,
+        "sd": 39.41571829354873,
+        "ci95": [
+          776.7712875269748,
+          874.6534442638566
+        ],
+        "max": 873.934240176771
+      },
+      "LR_to_LP_pct": {
+        "n": 5,
+        "mean": 95.65501642390626,
+        "sd": 0.5932767054767926,
+        "ci95": [
+          94.91836609774279,
+          96.39166675006973
+        ],
+        "max": 96.36861890656935
+      },
+      "lr_lower_bound": {
+        "n": 5,
+        "mean": 789.6999974530012,
+        "sd": 34.254613824417994,
+        "ci95": [
+          747.1672766948484,
+          832.232718211154
+        ],
+        "max": 828.3808619179903
+      },
+      "facility_lower_bound": {
+        "n": 5,
+        "mean": 1482.8762167635614,
+        "sd": 106.09565240603801,
+        "ci95": [
+          1351.1410648050435,
+          1614.6113687220793
+        ],
+        "max": 1612.6924925637118
+      },
+      "lr_seconds": {
+        "n": 5,
+        "mean": 7.266724491119385,
+        "sd": 0.23851898760184304,
+        "ci95": [
+          6.970564051326167,
+          7.562884930912603
+        ],
+        "max": 7.619224309921265
+      },
+      "aggregate_seconds": {
+        "n": 5,
+        "mean": 1.6947999000549316,
+        "sd": 1.7450534779873792,
+        "ci95": [
+          -0.47197017850226164,
+          3.861569978612125
+        ],
+        "max": 3.94599986076355
+      },
+      "total_seconds": {
+        "n": 5,
+        "mean": 8.961524391174317,
+        "sd": 1.8044912596429787,
+        "ci95": [
+          6.720952559002269,
+          11.202096223346365
+        ],
+        "max": 11.308678150177002
+      }
+    },
+    "I30_ALL": {
+      "upper_bound": {
+        "n": 15,
+        "mean": 1470.0182828382463,
+        "sd": 178.6392986869325,
+        "ci95": [
+          1371.09113662733,
+          1568.9454290491626
+        ],
+        "max": 1701.204342083773
+      },
+      "own_gap_pct": {
+        "n": 15,
+        "mean": 0.701560484123496,
+        "sd": 1.1019165984749755,
+        "ci95": [
+          0.09133941154410852,
+          1.3117815567028837
+        ],
+        "max": 3.940287199697578
+      },
+      "lp_value": {
+        "n": 15,
+        "mean": 842.3240752499527,
+        "sd": 43.32839559351142,
+        "ci95": [
+          818.3296095446455,
+          866.3185409552599
+        ],
+        "max": 907.5291505399734
+      },
+      "LR_to_LP_pct": {
+        "n": 15,
+        "mean": 94.72551013753746,
+        "sd": 4.287629484263385,
+        "ci95": [
+          92.3511000720831,
+          97.09992020299181
+        ],
+        "max": 97.08549903976726
+      },
+      "lr_lower_bound": {
+        "n": 15,
+        "mean": 797.0769262641521,
+        "sd": 41.448311958573285,
+        "ci95": [
+          774.1236161724719,
+          820.0302363558324
+        ],
+        "max": 870.609103825308
+      },
+      "facility_lower_bound": {
+        "n": 15,
+        "mean": 1459.4777229118145,
+        "sd": 177.07223769797218,
+        "ci95": [
+          1361.4183861510908,
+          1557.5370596725381
+        ],
+        "max": 1700.5763206648762
+      },
+      "lr_seconds": {
+        "n": 15,
+        "mean": 7.414011796315511,
+        "sd": 0.5671629595283246,
+        "ci95": [
+          7.099927418269423,
+          7.728096174361599
+        ],
+        "max": 8.270509719848633
+      },
+      "aggregate_seconds": {
+        "n": 15,
+        "mean": 2.2067999839782715,
+        "sd": 2.2296961028989686,
+        "ci95": [
+          0.9720354388937025,
+          3.4415645290628403
+        ],
+        "max": 6.625999927520752
+      },
+      "total_seconds": {
+        "n": 15,
+        "mean": 9.620811780293783,
+        "sd": 2.69951551397034,
+        "ci95": [
+          8.125869917489013,
+          11.115753643098554
+        ],
+        "max": 14.896509647369385
+      }
+    },
+    "I60_C": {
+      "upper_bound": {
+        "n": 5,
+        "mean": 2006.2911955146774,
+        "sd": 86.26225862154521,
+        "ci95": [
+          1899.1824545805625,
+          2113.3999364487922
+        ],
+        "max": 2106.0171780481746
+      },
+      "own_gap_pct": {
+        "n": 5,
+        "mean": 1.283816134656874,
+        "sd": 1.266201097709656,
+        "ci95": [
+          -0.28838018285529254,
+          2.8560124521690406
+        ],
+        "max": 2.7004120207824585
+      },
+      "lp_value": {
+        "n": 5,
+        "mean": 1537.6263853996727,
+        "sd": 14.365870510466925,
+        "ci95": [
+          1519.7888011839689,
+          1555.4639696153765
+        ],
+        "max": 1560.2359991344852
+      },
+      "LR_to_LP_pct": {
+        "n": 5,
+        "mean": 96.90727655396195,
+        "sd": 0.7253360124174099,
+        "ci95": [
+          96.00665294074257,
+          97.80790016718133
+        ],
+        "max": 97.61159979557367
+      },
+      "lr_lower_bound": {
+        "n": 5,
+        "mean": 1490.0893405314769,
+        "sd": 19.585781323643598,
+        "ci95": [
+          1465.770380985217,
+          1514.4083000777368
+        ],
+        "max": 1515.9340676351505
+      },
+      "facility_lower_bound": {
+        "n": 5,
+        "mean": 1980.1383178791766,
+        "sd": 77.21505976044313,
+        "ci95": [
+          1884.263158055482,
+          2076.013477702871
+        ],
+        "max": 2070.7136418367454
+      },
+      "lr_seconds": {
+        "n": 5,
+        "mean": 42.0681116104126,
+        "sd": 1.1516365826465256,
+        "ci95": [
+          40.638165926725996,
+          43.498057294099205
+        ],
+        "max": 43.398146629333496
+      },
+      "aggregate_seconds": {
+        "n": 5,
+        "mean": 1.5889999866485596,
+        "sd": 0.5118344336638525,
+        "ci95": [
+          0.9534735973271412,
+          2.224526375969978
+        ],
+        "max": 2.38100004196167
+      },
+      "total_seconds": {
+        "n": 5,
+        "mean": 43.65711159706116,
+        "sd": 0.9229114263361273,
+        "ci95": [
+          42.511165705448704,
+          44.803057488673616
+        ],
+        "max": 44.761146783828735
+      }
+    },
+    "I60_R": {
+      "upper_bound": {
+        "n": 5,
+        "mean": 2690.491436537824,
+        "sd": 164.18938924298212,
+        "ci95": [
+          2486.623383027749,
+          2894.3594900478993
+        ],
+        "max": 2906.346183337001
+      },
+      "own_gap_pct": {
+        "n": 5,
+        "mean": 5.4367829615142345,
+        "sd": 3.1246389792489535,
+        "ci95": [
+          1.5570312335966507,
+          9.316534689431819
+        ],
+        "max": 9.632398283103948
+      },
+      "lp_value": {
+        "n": 5,
+        "mean": 1578.123693450619,
+        "sd": 32.619328453371466,
+        "ci95": [
+          1537.6214476644839,
+          1618.625939236754
+        ],
+        "max": 1605.0233537235454
+      },
+      "LR_to_LP_pct": {
+        "n": 5,
+        "mean": 96.55915749767476,
+        "sd": 0.39096332996778216,
+        "ci95": [
+          96.07371240623591,
+          97.04460258911361
+        ],
+        "max": 97.196770659621
+      },
+      "lr_lower_bound": {
+        "n": 5,
+        "mean": 1523.8516555307258,
+        "sd": 33.76177828432314,
+        "ci95": [
+          1481.9308709197442,
+          1565.7724401417074
+        ],
+        "max": 1552.4763550280786
+      },
+      "facility_lower_bound": {
+        "n": 5,
+        "mean": 2540.224046787605,
+        "sd": 75.86136777517856,
+        "ci95": [
+          2446.0297175666706,
+          2634.4183760085393
+        ],
+        "max": 2626.3953434721907
+      },
+      "lr_seconds": {
+        "n": 5,
+        "mean": 44.42081327438355,
+        "sd": 2.399105735259111,
+        "ci95": [
+          41.44193005502814,
+          47.39969649373896
+        ],
+        "max": 47.73165154457092
+      },
+      "aggregate_seconds": {
+        "n": 5,
+        "mean": 123.27560000419616,
+        "sd": 161.38239210732965,
+        "ci95": [
+          -77.10710621947835,
+          323.6583062278707
+        ],
+        "max": 300.0519998073578
+      },
+      "total_seconds": {
+        "n": 5,
+        "mean": 167.6964132785797,
+        "sd": 163.16579731163,
+        "ci95": [
+          -34.90068298148378,
+          370.2935095386432
+        ],
+        "max": 347.7836513519287
+      }
+    },
+    "I60_RC": {
+      "upper_bound": {
+        "n": 5,
+        "mean": 2371.731667550752,
+        "sd": 84.81923337771353,
+        "ci95": [
+          2266.4146791104017,
+          2477.048655991102
+        ],
+        "max": 2456.2707537838537
+      },
+      "own_gap_pct": {
+        "n": 5,
+        "mean": 1.9464462071341522,
+        "sd": 1.6982337229409448,
+        "ci95": [
+          -0.16218946717716443,
+          4.055081881445469
+        ],
+        "max": 4.219777429989419
+      },
+      "lp_value": {
+        "n": 5,
+        "mean": 1565.9244094530748,
+        "sd": 25.42167280217132,
+        "ci95": [
+          1534.3592335605028,
+          1597.4895853456467
+        ],
+        "max": 1588.1304857894143
+      },
+      "LR_to_LP_pct": {
+        "n": 5,
+        "mean": 93.86071485111047,
+        "sd": 2.661718773030402,
+        "ci95": [
+          90.55575447729552,
+          97.16567522492542
+        ],
+        "max": 95.61692009756261
+      },
+      "lr_lower_bound": {
+        "n": 5,
+        "mean": 1469.6085664153566,
+        "sd": 41.00192493114995,
+        "ci95": [
+          1418.6979523712944,
+          1520.5191804594187
+        ],
+        "max": 1511.932733471735
+      },
+      "facility_lower_bound": {
+        "n": 5,
+        "mean": 2324.5164788575057,
+        "sd": 49.8902663347528,
+        "ci95": [
+          2262.569531288846,
+          2386.4634264261654
+        ],
+        "max": 2379.1166922630246
+      },
+      "lr_seconds": {
+        "n": 5,
+        "mean": 44.32681951522827,
+        "sd": 2.6229527640438963,
+        "ci95": [
+          41.069993499125914,
+          47.58364553133063
+        ],
+        "max": 47.8001766204834
+      },
+      "aggregate_seconds": {
+        "n": 5,
+        "mean": 6.246000003814697,
+        "sd": 4.620687910409832,
+        "ci95": [
+          0.5086581785234285,
+          11.983341829105967
+        ],
+        "max": 13.576000213623047
+      },
+      "total_seconds": {
+        "n": 5,
+        "mean": 50.572819519042966,
+        "sd": 4.238502757973983,
+        "ci95": [
+          45.31002323817931,
+          55.83561579990662
+        ],
+        "max": 55.54156947135925
+      }
+    },
+    "I60_ALL": {
+      "upper_bound": {
+        "n": 15,
+        "mean": 2356.1714332010847,
+        "sd": 309.20582278879994,
+        "ci95": [
+          2184.9389559962697,
+          2527.4039104058998
+        ],
+        "max": 2906.346183337001
+      },
+      "own_gap_pct": {
+        "n": 15,
+        "mean": 2.8890151011017537,
+        "sd": 2.761775199737311,
+        "ci95": [
+          1.3595949735356048,
+          4.418435228667903
+        ],
+        "max": 9.632398283103948
+      },
+      "lp_value": {
+        "n": 15,
+        "mean": 1560.5581627677886,
+        "sd": 29.25588526130927,
+        "ci95": [
+          1544.356793527936,
+          1576.7595320076414
+        ],
+        "max": 1605.0233537235454
+      },
+      "LR_to_LP_pct": {
+        "n": 15,
+        "mean": 95.77571630091572,
+        "sd": 2.050471065581443,
+        "ci95": [
+          94.64020327328387,
+          96.91122932854756
+        ],
+        "max": 97.61159979557367
+      },
+      "lr_lower_bound": {
+        "n": 15,
+        "mean": 1494.5165208258525,
+        "sd": 38.09879510307457,
+        "ci95": [
+          1473.418111341908,
+          1515.614930309797
+        ],
+        "max": 1552.4763550280786
+      },
+      "facility_lower_bound": {
+        "n": 15,
+        "mean": 2281.6262811747624,
+        "sd": 247.10631492257838,
+        "ci95": [
+          2144.7833651665233,
+          2418.4691971830016
+        ],
+        "max": 2626.3953434721907
+      },
+      "lr_seconds": {
+        "n": 15,
+        "mean": 43.60524813334147,
+        "sd": 2.292696909166273,
+        "ci95": [
+          42.33559490464236,
+          44.874901362040575
+        ],
+        "max": 47.8001766204834
+      },
+      "aggregate_seconds": {
+        "n": 15,
+        "mean": 43.70353333155314,
+        "sd": 104.13097159560078,
+        "ci95": [
+          -13.962276643306133,
+          101.36934330641242
+        ],
+        "max": 300.0519998073578
+      },
+      "total_seconds": {
+        "n": 15,
+        "mean": 87.30878146489461,
+        "sd": 105.27292047294107,
+        "ci95": [
+          29.010581280353563,
+          145.60698164943565
+        ],
+        "max": 347.7836513519287
+      }
+    },
+    "I100_C": {
+      "upper_bound": {
+        "n": 5,
+        "mean": 3217.741076932648,
+        "sd": 155.09546936255046,
+        "ci95": [
+          3025.164616340654,
+          3410.317537524642
+        ],
+        "max": 3411.3216256977894
+      },
+      "own_gap_pct": {
+        "n": 5,
+        "mean": 2.6994128572104112,
+        "sd": 2.3928149157739993,
+        "ci95": [
+          -0.27165927807113555,
+          5.670484992491958
+        ],
+        "max": 5.401427024723821
+      },
+      "lp_value": {
+        "n": 5,
+        "mean": 2572.2458359953494,
+        "sd": 59.643192763594186,
+        "ci95": [
+          2498.1890308028674,
+          2646.3026411878313
+        ],
+        "max": 2636.0713976951506
+      },
+      "LR_to_LP_pct": {
+        "n": 5,
+        "mean": 96.15372738688731,
+        "sd": 0.7348418096430401,
+        "ci95": [
+          95.24130076747865,
+          97.06615400629597
+        ],
+        "max": 96.76333966086119
+      },
+      "lr_lower_bound": {
+        "n": 5,
+        "mean": 2473.5929375426085,
+        "sd": 73.12566722906084,
+        "ci95": [
+          2382.795429199655,
+          2564.3904458855623
+        ],
+        "max": 2543.7657162920427
+      },
+      "facility_lower_bound": {
+        "n": 5,
+        "mean": 3128.500341767417,
+        "sd": 100.78862521661604,
+        "ci95": [
+          3003.3547344074927,
+          3253.6459491273413
+        ],
+        "max": 3236.071504273074
+      },
+      "lr_seconds": {
+        "n": 5,
+        "mean": 185.43991641998292,
+        "sd": 9.132671153521121,
+        "ci95": [
+          174.1002074412217,
+          196.77962539874414
+        ],
+        "max": 196.19085788726807
+      },
+      "aggregate_seconds": {
+        "n": 5,
+        "mean": 148.30159997940063,
+        "sd": 114.30507857635435,
+        "ci95": [
+          6.373099099289078,
+          290.23010085951216
+        ],
+        "max": 300.03399991989136
+      },
+      "total_seconds": {
+        "n": 5,
+        "mean": 333.74151639938356,
+        "sd": 117.5765638509637,
+        "ci95": [
+          187.7509300331358,
+          479.73210276563134
+        ],
+        "max": 496.2248578071594
+      }
+    },
+    "I100_R": {
+      "upper_bound": {
+        "n": 5,
+        "mean": 4000.497410251318,
+        "sd": 79.42987508033575,
+        "ci95": [
+          3901.8721939822426,
+          4099.122626520393
+        ],
+        "max": 4109.118909920101
+      },
+      "own_gap_pct": {
+        "n": 5,
+        "mean": 6.26676655776038,
+        "sd": 0.6702418148006578,
+        "ci95": [
+          5.434551426231648,
+          7.098981689289111
+        ],
+        "max": 7.43706718559369
+      },
+      "lp_value": {
+        "n": 5,
+        "mean": 2504.5861195945827,
+        "sd": 62.69547990314714,
+        "ci95": [
+          2426.739399348737,
+          2582.432839840428
+        ],
+        "max": 2578.687670039317
+      },
+      "LR_to_LP_pct": {
+        "n": 5,
+        "mean": 96.92475265235723,
+        "sd": 0.26195188267500974,
+        "ci95": [
+          96.59949643037797,
+          97.25000887433649
+        ],
+        "max": 97.21568296062176
+      },
+      "lr_lower_bound": {
+        "n": 5,
+        "mean": 2427.4334668794036,
+        "sd": 54.259306059107566,
+        "ci95": [
+          2360.0616399782903,
+          2494.805293780517
+        ],
+        "max": 2491.421273477384
+      },
+      "facility_lower_bound": {
+        "n": 5,
+        "mean": 3749.868623472145,
+        "sd": 83.63167266650993,
+        "ci95": [
+          3646.0261864125778,
+          3853.711060531712
+        ],
+        "max": 3872.721027283909
+      },
+      "lr_seconds": {
+        "n": 5,
+        "mean": 201.47391242980956,
+        "sd": 8.36954299283709,
+        "ci95": [
+          191.08175221418517,
+          211.86607264543395
+        ],
+        "max": 208.9377179145813
+      },
+      "aggregate_seconds": {
+        "n": 5,
+        "mean": 300.05999999046327,
+        "sd": 0.012569795000182155,
+        "ci95": [
+          300.0443925285467,
+          300.0756074523798
+        ],
+        "max": 300.07499980926514
+      },
+      "total_seconds": {
+        "n": 5,
+        "mean": 501.5339124202728,
+        "sd": 8.371097241955985,
+        "ci95": [
+          491.13982234947326,
+          511.9280024910724
+        ],
+        "max": 508.98271775245667
+      }
+    },
+    "I100_RC": {
+      "upper_bound": {
+        "n": 5,
+        "mean": 3859.7125171974767,
+        "sd": 73.45692585982658,
+        "ci95": [
+          3768.503696938607,
+          3950.9213374563465
+        ],
+        "max": 3974.954208759662
+      },
+      "own_gap_pct": {
+        "n": 5,
+        "mean": 6.573817812607305,
+        "sd": 3.186858556252855,
+        "ci95": [
+          2.61681027594051,
+          10.5308253492741
+        ],
+        "max": 9.694067679325238
+      },
+      "lp_value": {
+        "n": 5,
+        "mean": 2544.605198913726,
+        "sd": 89.9179060329926,
+        "ci95": [
+          2432.95737219869,
+          2656.253025628762
+        ],
+        "max": 2659.598243163501
+      },
+      "LR_to_LP_pct": {
+        "n": 5,
+        "mean": 92.82992386668585,
+        "sd": 2.0585710239796784,
+        "ci95": [
+          90.27387033846482,
+          95.38597739490687
+        ],
+        "max": 95.39930461248848
+      },
+      "lr_lower_bound": {
+        "n": 5,
+        "mean": 2361.7493098427885,
+        "sd": 86.06330217292992,
+        "ci95": [
+          2254.8876059681297,
+          2468.6110137174473
+        ],
+        "max": 2497.926853279469
+      },
+      "facility_lower_bound": {
+        "n": 5,
+        "mean": 3604.3940530090185,
+        "sd": 73.63446126320055,
+        "ci95": [
+          3512.9647934313725,
+          3695.8233125866645
+        ],
+        "max": 3683.1729064126534
+      },
+      "lr_seconds": {
+        "n": 5,
+        "mean": 196.44960260391235,
+        "sd": 10.200785708923537,
+        "ci95": [
+          183.78365423575053,
+          209.11555097207417
+        ],
+        "max": 208.60240745544434
+      },
+      "aggregate_seconds": {
+        "n": 5,
+        "mean": 250.38720006942748,
+        "sd": 111.1019458141206,
+        "ci95": [
+          112.43591382164854,
+          388.3384863172064
+        ],
+        "max": 300.1050000190735
+      },
+      "total_seconds": {
+        "n": 5,
+        "mean": 446.83680267333983,
+        "sd": 104.58551815612842,
+        "ci95": [
+          316.97673004538905,
+          576.6968753012907
+        ],
+        "max": 503.91276240348816
+      }
+    },
+    "I100_ALL": {
+      "upper_bound": {
+        "n": 15,
+        "mean": 3692.650334793814,
+        "sd": 366.85249155218617,
+        "ci95": [
+          3489.4941964951317,
+          3895.8064730924966
+        ],
+        "max": 4109.118909920101
+      },
+      "own_gap_pct": {
+        "n": 15,
+        "mean": 5.1799990758593655,
+        "sd": 2.824749422135533,
+        "ci95": [
+          3.61570498633468,
+          6.74429316538405
+        ],
+        "max": 9.694067679325238
+      },
+      "lp_value": {
+        "n": 15,
+        "mean": 2540.47905150122,
+        "sd": 72.63673565215791,
+        "ci95": [
+          2500.254168057528,
+          2580.703934944912
+        ],
+        "max": 2659.598243163501
+      },
+      "LR_to_LP_pct": {
+        "n": 15,
+        "mean": 95.30280130197681,
+        "sd": 2.183295751086725,
+        "ci95": [
+          94.09373241524798,
+          96.51187018870564
+        ],
+        "max": 97.21568296062176
+      },
+      "lr_lower_bound": {
+        "n": 15,
+        "mean": 2420.925238088267,
+        "sd": 82.10771687593609,
+        "ci95": [
+          2375.4555000623395,
+          2466.394976114195
+        ],
+        "max": 2543.7657162920427
+      },
+      "facility_lower_bound": {
+        "n": 15,
+        "mean": 3494.254339416193,
+        "sd": 286.1724726860332,
+        "ci95": [
+          3335.7773063386917,
+          3652.7313724936944
+        ],
+        "max": 3872.721027283909
+      },
+      "lr_seconds": {
+        "n": 15,
+        "mean": 194.45447715123495,
+        "sd": 11.027952657561952,
+        "ci95": [
+          188.3474005282259,
+          200.561553774244
+        ],
+        "max": 208.9377179145813
+      },
+      "aggregate_seconds": {
+        "n": 15,
+        "mean": 232.9162666797638,
+        "sd": 107.40542528403104,
+        "ci95": [
+          173.43712469354284,
+          292.39540866598475
+        ],
+        "max": 300.1050000190735
+      },
+      "total_seconds": {
+        "n": 15,
+        "mean": 427.3707438309987,
+        "sd": 111.02042708874991,
+        "ci95": [
+          365.88968057260075,
+          488.8518070893967
+        ],
+        "max": 508.98271775245667
+      }
+    }
+  },
+  "environment": {
+    "python": "3.10.5 (tags/v3.10.5:f377153, Jun  6 2022, 16:14:13) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "processor": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+    "cpu_count": 12,
+    "numpy": "1.26.4",
+    "scipy": "1.10.1",
+    "thread_environment": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    }
+  }
+}
